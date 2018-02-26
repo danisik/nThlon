@@ -1,5 +1,5 @@
 using Toybox.WatchUi as Ui;
-//
+////
 class nThlonView extends Ui.View {
 
     function initialize() {
