@@ -1,3 +1,39 @@
 <drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+  <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+  <drawable-list id="MainLayout_fill">
+    <shape type="rectangle" x="0" y="35" width="fill" height="2" color="Gfx.COLOR_RED" />
+    <shape type="rectangle" x="0" y="65" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="95" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="125" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="155" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+  </drawable-list>
+  <drawable-list id="DepoLayout_fill">
+    <shape type="rectangle" x="0" y="35" width="fill" height="2" color="Gfx.COLOR_RED" />
+    <shape type="rectangle" x="0" y="65" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="95" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+  </drawable-list>
+  <drawable-list id="SecondLayout_fill">
+    <shape type="rectangle" x="0" y="35" width="fill" height="2" color="Gfx.COLOR_RED" />
+    <shape type="rectangle" x="0" y="65" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="95" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="125" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="155" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="185" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+  </drawable-list>
+  <drawable-list id="ThirdLayout_fill">
+    <shape type="rectangle" x="0" y="35" width="fill" height="2" color="Gfx.COLOR_RED" />
+    <shape type="rectangle" x="0" y="65" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="95" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="125" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="155" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="185" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+  </drawable-list>
+  <drawable-list id="FinalLayout_fill">
+    <shape type="rectangle" x="0" y="35" width="fill" height="2" color="Gfx.COLOR_RED" />
+    <shape type="rectangle" x="0" y="65" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="95" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="125" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="155" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+    <shape type="rectangle" x="0" y="185" width="fill" height="2" color="Gfx.COLOR_DK_GRAY" />
+  </drawable-list>
 </drawables>

@@ -16,12 +16,16 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
 	function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
         	Sys.println("ZMACKNUTO");
+        	//Ui.pushView(new Rez.Menus.MainMenu(), new nThlonMenuDelegate(), Ui.SLIDE_UP);
+        	Ui.switchToView( new nThlonView(), new nThlonDelegate(), Ui.SLIDE_UP );
+        	Ui.requestUpdate();
+			return true;
         }
     }
 
 	function onBack() {
         // Do not quit if activity is running
-        Sys.println("VYPNUTI");
+        //Sys.println("VYPNUTI");
         return false;
     }
 }

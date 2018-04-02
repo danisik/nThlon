@@ -9,7 +9,7 @@ class nThlonApp extends App.AppBase {
 
     // onStart() is called on application start up
     function onStart(state) {
-    	Sys.println("item 2");
+    	//Sys.println("item 2");
     }
 
     // onStop() is called when your application is exiting

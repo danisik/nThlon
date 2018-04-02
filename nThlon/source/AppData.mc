@@ -1,0 +1,4 @@
+
+module AppData {
+	var disciplines = {};
+}

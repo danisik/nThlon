@@ -1,0 +1,6 @@
+<menu id="ActivityTypeMenu">
+	<menu-item id="Seven">@Strings.sevenminutes</menu-item>
+	<menu-item id="Cardio">@Strings.cardio</menu-item>
+	<menu-item id="Strength">@Strings.strength</menu-item>
+	<menu-item id="Flexibility">@Strings.flexibility</menu-item>
+</menu>

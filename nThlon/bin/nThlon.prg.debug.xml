@@ -4,104 +4,531 @@
 <entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="6" pc="268435456" symbol="initialize"/>
 <entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="7" pc="268435460" symbol="initialize"/>
 <entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="11" pc="268435479" symbol="onStart"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="12" pc="268435483" symbol="onStart"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="16" pc="268435507" symbol="onStop"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="20" pc="268435512" symbol="getInitialView"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="21" pc="268435516" symbol="getInitialView"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="6" pc="268435584" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="7" pc="268435588" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="10" pc="268435607" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="11" pc="268435611" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="12" pc="268435622" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="13" pc="268435646" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="14" pc="268435657" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="5" pc="268435682" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="6" pc="268435686" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="10" pc="268435705" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="11" pc="268435709" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="17" pc="268435747" symbol="onShow"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="21" pc="268435752" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="23" pc="268435756" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="29" pc="268435777" symbol="onHide"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="6" pc="268435782" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="7" pc="268435786" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="10" pc="268435805" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="11" pc="268435809" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="13" pc="268435893" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="16" pc="268435897" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="17" pc="268435901" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="18" pc="268435928" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="22" pc="268435953" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="24" pc="268435957" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="25" pc="268435978" symbol="onBack"/>
-<entry filename="Rez" lineNum="15" pc="268435982" symbol="initialize"/>
-<entry filename="Rez" lineNum="16" pc="268435986" symbol="initialize"/>
-<entry filename="Rez" lineNum="17" pc="268436004" symbol="initialize"/>
-<entry filename="Rez" lineNum="18" pc="268436056" symbol="initialize"/>
-<entry filename="Rez" lineNum="34" pc="268436109" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268436121" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268436284" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268436309" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="41" pc="268436361" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="42" pc="268436477" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="45" pc="268436529" symbol="MainLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="16" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="20" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="21" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="6" pc="268435561" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="7" pc="268435565" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="10" pc="268435584" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="11" pc="268435588" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="13" pc="268435602" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="6" pc="268435617" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="7" pc="268435621" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="11" pc="268435640" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="12" pc="268435644" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="13" pc="268435663" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="14" pc="268435680" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="16" pc="268435720" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="17" pc="268435737" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="19" pc="268435777" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="20" pc="268435794" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="22" pc="268435834" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="23" pc="268435851" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="25" pc="268435891" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="26" pc="268435908" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="28" pc="268435948" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="29" pc="268435965" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="31" pc="268436005" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="32" pc="268436022" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="33" pc="268436059" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="40" pc="268436076" symbol="onShow"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="44" pc="268436081" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="46" pc="268436085" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="52" pc="268436106" symbol="onHide"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="6" pc="268436111" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="7" pc="268436115" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="10" pc="268436134" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="11" pc="268436138" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="13" pc="268436222" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="16" pc="268436226" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="17" pc="268436230" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="18" pc="268436257" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="20" pc="268436278" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="21" pc="268436350" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="22" pc="268436366" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="26" pc="268436373" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="29" pc="268436377" symbol="onBack"/>
+<entry filename="Rez" lineNum="58" pc="268436381" symbol="initialize"/>
+<entry filename="Rez" lineNum="59" pc="268436385" symbol="initialize"/>
+<entry filename="Rez" lineNum="60" pc="268436403" symbol="initialize"/>
+<entry filename="Rez" lineNum="61" pc="268436455" symbol="initialize"/>
+<entry filename="Rez" lineNum="62" pc="268436507" symbol="initialize"/>
+<entry filename="Rez" lineNum="63" pc="268436559" symbol="initialize"/>
+<entry filename="Rez" lineNum="72" pc="268436612" symbol="initialize"/>
+<entry filename="Rez" lineNum="73" pc="268436616" symbol="initialize"/>
+<entry filename="Rez" lineNum="74" pc="268436634" symbol="initialize"/>
+<entry filename="Rez" lineNum="75" pc="268436686" symbol="initialize"/>
+<entry filename="Rez" lineNum="76" pc="268436738" symbol="initialize"/>
+<entry filename="Rez" lineNum="77" pc="268436790" symbol="initialize"/>
+<entry filename="Rez" lineNum="78" pc="268436842" symbol="initialize"/>
+<entry filename="Rez" lineNum="87" pc="268436895" symbol="initialize"/>
+<entry filename="Rez" lineNum="88" pc="268436899" symbol="initialize"/>
+<entry filename="Rez" lineNum="89" pc="268436917" symbol="initialize"/>
+<entry filename="Rez" lineNum="90" pc="268436969" symbol="initialize"/>
+<entry filename="Rez" lineNum="91" pc="268437021" symbol="initialize"/>
+<entry filename="Rez" lineNum="109" pc="268437074" symbol="initialize"/>
+<entry filename="Rez" lineNum="110" pc="268437078" symbol="initialize"/>
+<entry filename="Rez" lineNum="113" pc="268437103" symbol="draw"/>
+<entry filename="Rez" lineNum="114" pc="268437107" symbol="draw"/>
+<entry filename="Rez" lineNum="115" pc="268437114" symbol="draw"/>
+<entry filename="Rez" lineNum="116" pc="268437121" symbol="draw"/>
+<entry filename="Rez" lineNum="117" pc="268437134" symbol="draw"/>
+<entry filename="Rez" lineNum="118" pc="268437147" symbol="draw"/>
+<entry filename="Rez" lineNum="121" pc="268437170" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="123" pc="268437174" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="124" pc="268437210" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="126" pc="268437287" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="127" pc="268437323" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="129" pc="268437400" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="130" pc="268437436" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="132" pc="268437513" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="133" pc="268437549" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="135" pc="268437626" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="136" pc="268437662" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="147" pc="268437740" symbol="initialize"/>
+<entry filename="Rez" lineNum="148" pc="268437744" symbol="initialize"/>
+<entry filename="Rez" lineNum="151" pc="268437769" symbol="draw"/>
+<entry filename="Rez" lineNum="152" pc="268437773" symbol="draw"/>
+<entry filename="Rez" lineNum="153" pc="268437780" symbol="draw"/>
+<entry filename="Rez" lineNum="154" pc="268437787" symbol="draw"/>
+<entry filename="Rez" lineNum="155" pc="268437800" symbol="draw"/>
+<entry filename="Rez" lineNum="156" pc="268437813" symbol="draw"/>
+<entry filename="Rez" lineNum="159" pc="268437836" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="161" pc="268437840" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="162" pc="268437876" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="164" pc="268437953" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="165" pc="268437989" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="167" pc="268438066" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="168" pc="268438102" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="179" pc="268438180" symbol="initialize"/>
+<entry filename="Rez" lineNum="180" pc="268438184" symbol="initialize"/>
+<entry filename="Rez" lineNum="183" pc="268438209" symbol="draw"/>
+<entry filename="Rez" lineNum="184" pc="268438213" symbol="draw"/>
+<entry filename="Rez" lineNum="185" pc="268438220" symbol="draw"/>
+<entry filename="Rez" lineNum="186" pc="268438227" symbol="draw"/>
+<entry filename="Rez" lineNum="187" pc="268438240" symbol="draw"/>
+<entry filename="Rez" lineNum="188" pc="268438253" symbol="draw"/>
+<entry filename="Rez" lineNum="191" pc="268438276" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="193" pc="268438280" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="194" pc="268438316" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="196" pc="268438393" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="197" pc="268438429" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="199" pc="268438506" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="200" pc="268438542" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="202" pc="268438619" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="203" pc="268438655" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="205" pc="268438732" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="206" pc="268438768" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="208" pc="268438845" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="209" pc="268438881" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="220" pc="268438959" symbol="initialize"/>
+<entry filename="Rez" lineNum="221" pc="268438963" symbol="initialize"/>
+<entry filename="Rez" lineNum="224" pc="268438988" symbol="draw"/>
+<entry filename="Rez" lineNum="225" pc="268438992" symbol="draw"/>
+<entry filename="Rez" lineNum="226" pc="268438999" symbol="draw"/>
+<entry filename="Rez" lineNum="227" pc="268439006" symbol="draw"/>
+<entry filename="Rez" lineNum="228" pc="268439019" symbol="draw"/>
+<entry filename="Rez" lineNum="229" pc="268439032" symbol="draw"/>
+<entry filename="Rez" lineNum="232" pc="268439055" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="234" pc="268439059" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="235" pc="268439095" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="237" pc="268439172" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="238" pc="268439208" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="240" pc="268439285" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="241" pc="268439321" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="243" pc="268439398" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="244" pc="268439434" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="246" pc="268439511" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="247" pc="268439547" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="249" pc="268439624" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="250" pc="268439660" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="261" pc="268439738" symbol="initialize"/>
+<entry filename="Rez" lineNum="262" pc="268439742" symbol="initialize"/>
+<entry filename="Rez" lineNum="265" pc="268439767" symbol="draw"/>
+<entry filename="Rez" lineNum="266" pc="268439771" symbol="draw"/>
+<entry filename="Rez" lineNum="267" pc="268439778" symbol="draw"/>
+<entry filename="Rez" lineNum="268" pc="268439785" symbol="draw"/>
+<entry filename="Rez" lineNum="269" pc="268439798" symbol="draw"/>
+<entry filename="Rez" lineNum="270" pc="268439811" symbol="draw"/>
+<entry filename="Rez" lineNum="273" pc="268439834" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="275" pc="268439838" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="276" pc="268439874" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="278" pc="268439951" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="279" pc="268439987" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="281" pc="268440064" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="282" pc="268440100" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="284" pc="268440177" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="285" pc="268440213" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="287" pc="268440290" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="288" pc="268440326" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="290" pc="268440403" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="291" pc="268440439" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="304" pc="268440517" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="308" pc="268440529" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="309" pc="268440705" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="310" pc="268440730" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="311" pc="268440782" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="312" pc="268440828" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="313" pc="268440989" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="316" pc="268441150" symbol="StartLayout"/>
+<entry filename="Rez" lineNum="325" pc="268441188" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="329" pc="268441200" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="330" pc="268441236" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="331" pc="268441263" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="333" pc="268441279" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="334" pc="268441380" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="335" pc="268441513" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="336" pc="268441661" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="337" pc="268441686" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="338" pc="268441738" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="339" pc="268441884" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="340" pc="268442045" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="341" pc="268442191" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="342" pc="268442352" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="343" pc="268442498" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="344" pc="268442659" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="345" pc="268442805" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="346" pc="268442966" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="349" pc="268443127" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="358" pc="268443265" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="362" pc="268443277" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="363" pc="268443313" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="364" pc="268443340" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="366" pc="268443356" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="367" pc="268443457" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="368" pc="268443590" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="369" pc="268443738" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="370" pc="268443763" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="371" pc="268443815" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="372" pc="268443976" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="373" pc="268444001" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="374" pc="268444053" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="375" pc="268444199" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="376" pc="268444360" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="379" pc="268444521" symbol="DepoLayout"/>
+<entry filename="Rez" lineNum="388" pc="268444609" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="392" pc="268444621" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="393" pc="268444657" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="394" pc="268444684" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="396" pc="268444700" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="397" pc="268444801" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="398" pc="268444934" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="399" pc="268445082" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="400" pc="268445107" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="401" pc="268445159" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="402" pc="268445305" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="403" pc="268445466" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="404" pc="268445612" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="405" pc="268445773" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="406" pc="268445919" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="407" pc="268446080" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="408" pc="268446226" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="409" pc="268446387" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="410" pc="268446533" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="411" pc="268446694" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="414" pc="268446855" symbol="SecondLayout"/>
+<entry filename="Rez" lineNum="423" pc="268447013" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="427" pc="268447025" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="428" pc="268447061" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="429" pc="268447088" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="431" pc="268447104" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="432" pc="268447205" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="433" pc="268447338" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="434" pc="268447486" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="435" pc="268447511" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="436" pc="268447563" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="437" pc="268447709" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="438" pc="268447870" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="439" pc="268448016" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="440" pc="268448177" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="441" pc="268448323" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="442" pc="268448484" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="443" pc="268448630" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="444" pc="268448791" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="445" pc="268448937" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="446" pc="268449098" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="449" pc="268449259" symbol="ThirdLayout"/>
+<entry filename="Rez" lineNum="458" pc="268449417" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="462" pc="268449429" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="463" pc="268449465" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="464" pc="268449492" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="466" pc="268449508" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="467" pc="268449609" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="468" pc="268449742" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="469" pc="268449890" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="470" pc="268449915" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="471" pc="268449967" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="472" pc="268450113" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="473" pc="268450274" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="474" pc="268450420" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="475" pc="268450581" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="476" pc="268450727" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="477" pc="268450888" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="478" pc="268451034" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="479" pc="268451195" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="480" pc="268451341" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="481" pc="268451502" symbol="FinalLayout"/>
+<entry filename="Rez" lineNum="484" pc="268451663" symbol="FinalLayout"/>
 </pcToLineNum>
 <symbolTable>
+<entry id="94" symbol="ActivityType"/>
+<entry id="26" object="true" symbol="MainLayout_fill"/>
+<entry field="true" id="23" symbol="tCycle3"/>
+<entry field="true" id="22" symbol="sCycle3"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="39" method="true" symbol="ThirdLayout"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="10" object="true" symbol="nThlonMenuDelegate"/>
+<entry id="12" object="true" symbol="nThlonMenuDelegate"/>
+<entry field="true" id="69" symbol="AllowToneLabel"/>
+<entry field="true" id="84" symbol="ExerciseTimePrompt"/>
+<entry id="95" symbol="ExerciseCount"/>
 <entry id="8389097" method="true" symbol="onKey"/>
+<entry id="40" method="true" symbol="FinalLayout"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="17" object="true" symbol="MainMenu"/>
+<entry id="33" object="true" symbol="MainMenu"/>
+<entry id="29" object="true" symbol="ThirdLayout_fill"/>
+<entry field="true" id="85" symbol="ExerciseCountLabel"/>
+<entry id="93" symbol="Flexibility"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="12" object="true" symbol="nThlonDelegate"/>
+<entry field="true" id="68" symbol="ActivityTypePrompt"/>
+<entry field="true" id="87" symbol="ExerciseCountError"/>
+<entry id="15" object="true" symbol="nThlonDelegate"/>
+<entry id="90" symbol="Seven"/>
+<entry field="true" id="49" symbol="cycling"/>
+<entry field="true" id="20" symbol="mCycle1"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="18" method="true" symbol="MainLayout"/>
+<entry field="true" id="78" symbol="AllowVibrationLabel"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="96" symbol="ExerciseDuration"/>
+<entry id="36" method="true" symbol="MainLayout"/>
+<entry field="true" id="48" symbol="notif_every_10s"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="82" symbol="NotifPolicyLabel"/>
+<entry id="31" method="true" symbol="drawComplex"/>
+<entry field="true" id="66" symbol="rest"/>
+<entry field="true" id="47" symbol="cardio"/>
+<entry field="true" id="75" symbol="sevenminutes"/>
+<entry id="14" module="true" symbol="AppData"/>
+<entry field="true" id="73" symbol="exercise13"/>
+<entry field="true" id="77" symbol="exercise12"/>
+<entry field="true" id="80" symbol="exercise11"/>
+<entry field="true" id="65" symbol="exercise10"/>
+<entry field="true" id="83" symbol="ActivityTypeLabel"/>
+<entry field="true" id="63" symbol="press_start"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="22" symbol="AppName"/>
-<entry id="9" object="true" symbol="nThlonApp"/>
+<entry field="true" id="53" symbol="AppName"/>
+<entry id="11" object="true" symbol="nThlonApp"/>
+<entry field="true" id="43" symbol="strength"/>
+<entry field="true" id="21" symbol="dCycle2"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry id="25" symbol="item_2"/>
-<entry id="24" symbol="item_1"/>
-<entry field="true" id="16" symbol="LauncherIcon"/>
-<entry field="true" id="20" symbol="menu_label_2"/>
+<entry id="91" symbol="Cardio"/>
+<entry field="true" id="72" symbol="RestTimePrompt"/>
+<entry id="89" symbol="item_2"/>
+<entry id="88" symbol="item_1"/>
+<entry field="true" id="25" symbol="LauncherIcon"/>
+<entry id="34" object="true" symbol="NotifPolicyMenu"/>
+<entry field="true" id="44" symbol="ExerciseTimeLabel"/>
+<entry field="true" id="70" symbol="saving_activity"/>
 <entry id="8389081" method="true" symbol="onBack"/>
-<entry field="true" id="19" symbol="menu_label_1"/>
+<entry field="true" id="52" symbol="stop_session"/>
+<entry id="37" method="true" symbol="DepoLayout"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="50" symbol="ExerciseTimeError"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="42" symbol="no_notif"/>
+<entry field="true" id="17" symbol="disciplines"/>
+<entry id="92" symbol="Strength"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="45" symbol="notif_start_end"/>
+<entry id="30" object="true" symbol="FinalLayout_fill"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="15" symbol="id_monkey"/>
+<entry id="97" symbol="RestDuration"/>
+<entry id="38" method="true" symbol="SecondLayout"/>
+<entry field="true" id="71" symbol="ExerciseCountPrompt"/>
+<entry id="35" method="true" symbol="StartLayout"/>
+<entry field="true" id="86" symbol="get_ready"/>
 <entry id="8389348" symbol="font"/>
+<entry id="101" symbol="Policy2"/>
+<entry id="100" symbol="Policy1"/>
+<entry id="99" symbol="Policy0"/>
+<entry field="true" id="41" symbol="AppDescription"/>
+<entry field="true" id="57" symbol="flexibility"/>
 <entry id="8389347" symbol="color"/>
+<entry field="true" id="24" symbol="fCycle5"/>
+<entry field="true" id="81" symbol="AppVersionLabel"/>
+<entry field="true" id="54" symbol="AppVersion"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="14" module="true" symbol="Layouts"/>
-<entry id="23" symbol="Sys"/>
-<entry field="true" id="21" symbol="prompt"/>
+<entry id="19" module="true" symbol="Layouts"/>
+<entry id="32" object="true" symbol="ActivityTypeMenu"/>
+<entry id="27" object="true" symbol="DepoLayout_fill"/>
+<entry field="true" id="16" symbol="pom"/>
 <entry id="8389125" method="true" symbol="onHide"/>
+<entry id="98" symbol="NotifPolicy"/>
 <entry id="8389345" symbol="rezId"/>
+<entry field="true" id="76" symbol="exercise9"/>
+<entry field="true" id="79" symbol="exercise8"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="55" symbol="exercise7"/>
+<entry field="true" id="56" symbol="exercise6"/>
+<entry field="true" id="58" symbol="exercise5"/>
+<entry field="true" id="59" symbol="exercise4"/>
+<entry field="true" id="60" symbol="exercise3"/>
+<entry field="true" id="61" symbol="exercise2"/>
+<entry field="true" id="62" symbol="exercise1"/>
+<entry id="28" object="true" symbol="SecondLayout_fill"/>
+<entry field="true" id="64" symbol="NotifPolicyPrompt"/>
 <entry id="8389346" symbol="text"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="13" module="true" symbol="Menus"/>
-<entry id="11" object="true" symbol="nThlonView"/>
+<entry field="true" id="46" symbol="exercise"/>
+<entry id="18" module="true" symbol="Menus"/>
+<entry id="13" object="true" symbol="nThlonView"/>
+<entry field="true" id="51" symbol="RestTimeLabel"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="74" symbol="no_value"/>
+<entry field="true" id="67" symbol="RestTimeError"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435507" name="state" stackId="1" startPc="268435479"/>
-<entry endPc="268435512" name="state" stackId="1" startPc="268435507"/>
-<entry endPc="268435682" name="item" stackId="1" startPc="268435607"/>
-<entry endPc="268435747" name="dc" stackId="1" startPc="268435705"/>
-<entry endPc="268435777" name="dc" stackId="1" startPc="268435752"/>
-<entry endPc="268435953" name="key" stackId="1" startPc="268435897"/>
-<entry endPc="268436556" name="rez_cmp_local_bitmap_BV1B0GQ0DU_fontHeight" stackId="3" startPc="268436121"/>
-<entry endPc="268436556" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268436121"/>
-<entry endPc="268436556" name="rez_cmp_local_bitmap_BV1B0GQ0DU" stackId="2" startPc="268436121"/>
-<entry endPc="268436557" name="dc" stackId="1" startPc="268436109"/>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435617" name="item" stackId="1" startPc="268435584"/>
+<entry endPc="268436076" name="dc" stackId="1" startPc="268435640"/>
+<entry endPc="268436106" name="dc" stackId="1" startPc="268436081"/>
+<entry endPc="268436373" name="key" stackId="1" startPc="268436226"/>
+<entry endPc="268437169" name="pWidth" stackId="4" startPc="268437107"/>
+<entry endPc="268437169" name="pY" stackId="3" startPc="268437107"/>
+<entry endPc="268437169" name="pX" stackId="2" startPc="268437107"/>
+<entry endPc="268437169" name="pHeight" stackId="5" startPc="268437107"/>
+<entry endPc="268437170" name="dc" stackId="1" startPc="268437103"/>
+<entry endPc="268437740" name="pWidth" stackId="4" startPc="268437170"/>
+<entry endPc="268437740" name="dc" stackId="1" startPc="268437170"/>
+<entry endPc="268437740" name="pY" stackId="3" startPc="268437170"/>
+<entry endPc="268437740" name="pX" stackId="2" startPc="268437170"/>
+<entry endPc="268437740" name="pHeight" stackId="5" startPc="268437170"/>
+<entry endPc="268437835" name="pWidth" stackId="4" startPc="268437773"/>
+<entry endPc="268437835" name="pY" stackId="3" startPc="268437773"/>
+<entry endPc="268437835" name="pX" stackId="2" startPc="268437773"/>
+<entry endPc="268437835" name="pHeight" stackId="5" startPc="268437773"/>
+<entry endPc="268437836" name="dc" stackId="1" startPc="268437769"/>
+<entry endPc="268438180" name="pWidth" stackId="4" startPc="268437836"/>
+<entry endPc="268438180" name="dc" stackId="1" startPc="268437836"/>
+<entry endPc="268438180" name="pY" stackId="3" startPc="268437836"/>
+<entry endPc="268438180" name="pX" stackId="2" startPc="268437836"/>
+<entry endPc="268438180" name="pHeight" stackId="5" startPc="268437836"/>
+<entry endPc="268438275" name="pWidth" stackId="4" startPc="268438213"/>
+<entry endPc="268438275" name="pY" stackId="3" startPc="268438213"/>
+<entry endPc="268438275" name="pX" stackId="2" startPc="268438213"/>
+<entry endPc="268438275" name="pHeight" stackId="5" startPc="268438213"/>
+<entry endPc="268438276" name="dc" stackId="1" startPc="268438209"/>
+<entry endPc="268438959" name="pWidth" stackId="4" startPc="268438276"/>
+<entry endPc="268438959" name="dc" stackId="1" startPc="268438276"/>
+<entry endPc="268438959" name="pY" stackId="3" startPc="268438276"/>
+<entry endPc="268438959" name="pX" stackId="2" startPc="268438276"/>
+<entry endPc="268438959" name="pHeight" stackId="5" startPc="268438276"/>
+<entry endPc="268439054" name="pWidth" stackId="4" startPc="268438992"/>
+<entry endPc="268439054" name="pY" stackId="3" startPc="268438992"/>
+<entry endPc="268439054" name="pX" stackId="2" startPc="268438992"/>
+<entry endPc="268439054" name="pHeight" stackId="5" startPc="268438992"/>
+<entry endPc="268439055" name="dc" stackId="1" startPc="268438988"/>
+<entry endPc="268439738" name="pWidth" stackId="4" startPc="268439055"/>
+<entry endPc="268439738" name="dc" stackId="1" startPc="268439055"/>
+<entry endPc="268439738" name="pY" stackId="3" startPc="268439055"/>
+<entry endPc="268439738" name="pX" stackId="2" startPc="268439055"/>
+<entry endPc="268439738" name="pHeight" stackId="5" startPc="268439055"/>
+<entry endPc="268439833" name="pWidth" stackId="4" startPc="268439771"/>
+<entry endPc="268439833" name="pY" stackId="3" startPc="268439771"/>
+<entry endPc="268439833" name="pX" stackId="2" startPc="268439771"/>
+<entry endPc="268439833" name="pHeight" stackId="5" startPc="268439771"/>
+<entry endPc="268439834" name="dc" stackId="1" startPc="268439767"/>
+<entry endPc="268440517" name="pWidth" stackId="4" startPc="268439834"/>
+<entry endPc="268440517" name="dc" stackId="1" startPc="268439834"/>
+<entry endPc="268440517" name="pY" stackId="3" startPc="268439834"/>
+<entry endPc="268440517" name="pX" stackId="2" startPc="268439834"/>
+<entry endPc="268440517" name="pHeight" stackId="5" startPc="268439834"/>
+<entry endPc="268441187" name="rez_cmp_local_bitmap_CyclingLabel" stackId="2" startPc="268440529"/>
+<entry endPc="268441187" name="rez_cmp_local_bitmap_CyclingLabel_fontHeight" stackId="3" startPc="268440529"/>
+<entry endPc="268441187" name="rez_cmp_local_bitmap_CyclingLabel2" stackId="5" startPc="268440529"/>
+<entry endPc="268441187" name="rez_cmp_local_bitmap_CyclingLabel1" stackId="4" startPc="268440529"/>
+<entry endPc="268441188" name="dc" stackId="1" startPc="268440517"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mTemperatureLabel" stackId="11" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mHeartrateLabel1" stackId="10" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_custom_drawable_MainLayout_fill" stackId="2" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mTemperatureLabel3" stackId="14" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mTemperatureLabel2" stackId="13" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mTemperatureLabel1" stackId="12" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mExerciseLabel1" stackId="8" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mTimerLabel" stackId="4" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mNextLabel" stackId="5" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mExerciseLabel" stackId="7" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mCycle1" stackId="3" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mNextLabel_fontHeight" stackId="6" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mHeartrateLabel" stackId="9" startPc="268441200"/>
+<entry endPc="268443264" name="rez_cmp_local_bitmap_mCyclingLabel" stackId="15" startPc="268441200"/>
+<entry endPc="268443265" name="dc" stackId="1" startPc="268441188"/>
+<entry endPc="268444608" name="rez_cmp_local_custom_drawable_DepoLayout_fill" stackId="2" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dNextLabel" stackId="5" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dCycle2" stackId="3" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dExerciseLabel1_fontHeight" stackId="8" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dExerciseLabel1" stackId="7" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dTemperatureLabel3" stackId="10" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dTemperatureLabel2" stackId="9" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dNextLabel_fontHeight" stackId="6" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dTimerLabel" stackId="4" startPc="268443277"/>
+<entry endPc="268444608" name="rez_cmp_local_bitmap_dCyclingLabel" stackId="11" startPc="268443277"/>
+<entry endPc="268444609" name="dc" stackId="1" startPc="268443265"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTimerLabel" stackId="4" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sCycle3" stackId="3" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sExerciseLabel" stackId="7" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_custom_drawable_SecondLayout_fill" stackId="2" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sHeartrateLabel" stackId="9" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sNextLabel" stackId="5" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sNextLabel_fontHeight" stackId="6" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sCyclingLabel" stackId="17" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sHeartrateLabel1" stackId="10" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sExerciseLabel1" stackId="8" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel5" stackId="16" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel" stackId="11" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel4" stackId="15" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel3" stackId="14" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel2" stackId="13" startPc="268444621"/>
+<entry endPc="268447012" name="rez_cmp_local_bitmap_sTemperatureLabel1" stackId="12" startPc="268444621"/>
+<entry endPc="268447013" name="dc" stackId="1" startPc="268444609"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tCyclingLabel" stackId="17" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tExerciseLabel1" stackId="8" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tNextLabel_fontHeight" stackId="6" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel5" stackId="16" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel4" stackId="15" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tHeartrateLabel1" stackId="10" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tHeartrateLabel" stackId="9" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel3" stackId="14" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel2" stackId="13" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tCycle3" stackId="3" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel1" stackId="12" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_custom_drawable_ThirdLayout_fill" stackId="2" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tNextLabel" stackId="5" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTemperatureLabel" stackId="11" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tTimerLabel" stackId="4" startPc="268447025"/>
+<entry endPc="268449416" name="rez_cmp_local_bitmap_tExerciseLabel" stackId="7" startPc="268447025"/>
+<entry endPc="268449417" name="dc" stackId="1" startPc="268447013"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel" stackId="11" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel5" stackId="16" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fExerciseLabel1" stackId="8" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fCycle5" stackId="3" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel4" stackId="15" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel3" stackId="14" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel2" stackId="13" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTemperatureLabel1" stackId="12" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_custom_drawable_FinalLayout_fill" stackId="2" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fTimerLabel" stackId="4" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fNextLabel_fontHeight" stackId="6" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fHeartrateLabel1" stackId="10" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fHeartrateLabel" stackId="9" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fExerciseLabel" stackId="7" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fCyclingLabel" stackId="17" startPc="268449429"/>
+<entry endPc="268451820" name="rez_cmp_local_bitmap_fNextLabel" stackId="5" startPc="268449429"/>
+<entry endPc="268451821" name="dc" stackId="1" startPc="268449417"/>
 </localVars>
 <annotations/>
 <functions>
@@ -156,27 +583,136 @@
 <functionEntry accessMode="public" name="onBack" parent="nThlonDelegate">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="ActivityTypeMenu">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MainMenu">
 <documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NotifPolicyMenu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MainLayout_fill">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="MainLayout_fill">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="MainLayout_fill">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DepoLayout_fill">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="DepoLayout_fill">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="DepoLayout_fill">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SecondLayout_fill">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="SecondLayout_fill">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="SecondLayout_fill">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="ThirdLayout_fill">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="ThirdLayout_fill">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="ThirdLayout_fill">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FinalLayout_fill">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="FinalLayout_fill">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="FinalLayout_fill">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="StartLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
+<functionEntry accessMode="public" name="DepoLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="SecondLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="ThirdLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="FinalLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
 </functions>
 <dataEntryOffsetMappings>
-<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="198" parentId="globals" symbolId="nThlonView" type="class"/>
-<dataEntry offset="277" parentId="globals" symbolId="nThlonDelegate" type="class"/>
-<dataEntry offset="348" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="427" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="474" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="513" parentId="Menus" symbolId="MainMenu" type="class"/>
-<dataEntry offset="560" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="591" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="622" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="661" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="724" parentId="globals" symbolId="nThlonMenuDelegate" type="class"/>
-<dataEntry offset="779" parentId="globals" symbolId="nThlonApp" type="class"/>
+<dataEntry offset="103" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="230" parentId="globals" symbolId="nThlonView" type="class"/>
+<dataEntry offset="348" parentId="globals" symbolId="AppData" type="module"/>
+<dataEntry offset="387" parentId="globals" symbolId="nThlonDelegate" type="class"/>
+<dataEntry offset="458" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="537" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="656" parentId="Drawables" symbolId="SecondLayout_fill" type="class"/>
+<dataEntry offset="719" parentId="Drawables" symbolId="MainLayout_fill" type="class"/>
+<dataEntry offset="782" parentId="Drawables" symbolId="FinalLayout_fill" type="class"/>
+<dataEntry offset="845" parentId="Drawables" symbolId="ThirdLayout_fill" type="class"/>
+<dataEntry offset="908" parentId="Drawables" symbolId="DepoLayout_fill" type="class"/>
+<dataEntry offset="971" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1026" parentId="Menus" symbolId="ActivityTypeMenu" type="class"/>
+<dataEntry offset="1073" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="1120" parentId="Menus" symbolId="NotifPolicyMenu" type="class"/>
+<dataEntry offset="1167" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1198" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1229" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1308" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1715" parentId="globals" symbolId="nThlonMenuDelegate" type="class"/>
+<dataEntry offset="1770" parentId="globals" symbolId="nThlonApp" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
