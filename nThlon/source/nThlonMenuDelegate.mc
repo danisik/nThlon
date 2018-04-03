@@ -37,7 +37,7 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
             Sys.println(App.getApp().getProperty( AppData.behProperties[0]));
         } else if (item == :pick_2) {
         	AppData.disciplines[AppData.disciplines.size()] = "item2";
-        	var picker = new StringPicker();
+        	var picker = new LimitPicker();
         	Ui.pushView(picker, new StringPickerDelegate(picker), Ui.SLIDE_UP);
             Sys.println(AppData.disciplines.size());
         } 
