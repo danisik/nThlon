@@ -1,5 +1,6 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
+using Toybox.Application as App;
 
 class nThlonMenuDelegate extends Ui.MenuInputDelegate {
 
@@ -11,18 +12,18 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
         if (item == :item_1) {
         	AppData.disciplines[AppData.disciplines.size()] = "item1";
         	//Ui.pushView(new CheckBoxView(), new CheckBoxDelegate(), Ui.SLIDE_UP);
-        	Ui.pushView(new Rez.Menus.PickMenu(), new AprojectMenuDelegate(), Ui.SLIDE_UP);
+        	Ui.pushView(new Rez.Menus.PickMenu(), new nThlonMenuDelegate(), Ui.SLIDE_UP);
             Sys.println(AppData.disciplines.size());
             AppData.chosenDiscipline = "beh";
         } else if (item == :item_2) {
         	AppData.disciplines[AppData.disciplines.size()] = "item2";
             Sys.println(AppData.disciplines.size());
-            Ui.pushView(new Rez.Menus.PickMenu(), new AprojectMenuDelegate(), Ui.SLIDE_UP);
+            Ui.pushView(new Rez.Menus.PickMenu(), new nThlonMenuDelegate(), Ui.SLIDE_UP);
             AppData.chosenDiscipline = "kolo";
             Sys.println(AppData.chosenDiscipline);
         } else if (item == :item_3) {
         	AppData.disciplines[AppData.disciplines.size()] = "item2";
-        	Ui.pushView(new Rez.Menus.PickMenu(), new AprojectMenuDelegate(), Ui.SLIDE_UP);
+        	Ui.pushView(new Rez.Menus.PickMenu(), new nThlonMenuDelegate(), Ui.SLIDE_UP);
             Sys.println(AppData.disciplines.size());
             AppData.chosenDiscipline = "plavani";
             
@@ -38,7 +39,7 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
         } else if (item == :pick_2) {
         	AppData.disciplines[AppData.disciplines.size()] = "item2";
         	var picker = new LimitPicker();
-        	Ui.pushView(picker, new StringPickerDelegate(picker), Ui.SLIDE_UP);
+        	Ui.pushView(picker, new LimitPickerDelegate(picker), Ui.SLIDE_UP);
             Sys.println(AppData.disciplines.size());
         } 
     }

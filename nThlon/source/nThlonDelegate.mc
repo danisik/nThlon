@@ -9,7 +9,7 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
-        Ui.pushView(new Rez.Menus.MainMenu(), new AprojectMenuDelegate(), Ui.SLIDE_UP);
+        Ui.pushView(new Rez.Menus.MainMenu(), new nThlonMenuDelegate(), Ui.SLIDE_UP);
         return true;
     }
 
@@ -30,7 +30,7 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
         	var menu = new Rez.Menus.MainMenu();
         	//menu.setTitle("Ahoj");
         	//Ui.draw("Ahoj");
-        	Ui.pushView(menu, new AprojectMenuDelegate(), Ui.SLIDE_UP);
+        	Ui.pushView(menu, new nThlonMenuDelegate(), Ui.SLIDE_UP);
         	Ui.requestUpdate();
 			return true;
         }
