@@ -1,6 +1,7 @@
 using Toybox.Application as App;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
+using Toybox.System as Sys;
 
 class LimitPicker extends Ui.Picker {
     const mCharacterSet = "0123456789";
@@ -11,7 +12,8 @@ class LimitPicker extends Ui.Picker {
         mFactory = new CharacterFactory(mCharacterSet, {:addOk=>true});
         mTitleText = "";
 
-        var string = App.getApp().getProperty("string");
+        var string = App.getApp().getProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1]);
+        
         var defaults = null;
         var titleText = Rez.Strings.stringPickerTitle;
 
@@ -87,7 +89,8 @@ class LimitPickerDelegate extends Ui.PickerDelegate {
                 App.getApp().deleteProperty("string");
             }
             else {
-                App.getApp().setProperty("string", mPicker.getTitle());
+            	App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1], mPicker.getTitle());
+                //App.getApp().setProperty("string", mPicker.getTitle());
             }
             Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
