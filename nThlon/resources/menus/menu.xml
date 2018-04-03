@@ -1,0 +1,11 @@
+<menus>
+<menu id="MainMenu">
+    <menu-item id="item_1" label="@Strings.menu_label_1" />
+    <menu-item id="item_2" label="@Strings.menu_label_2" />
+    <menu-item id="item_3" label="Plavání" />
+</menu>
+<menu id="PickMenu">
+    <menu-item id="pick_1" label="Limit" />
+    <menu-item id="pick_2" label="Výběr" />
+</menu>
+</menus>
