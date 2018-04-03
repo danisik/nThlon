@@ -7,9 +7,9 @@ module AppData {
 	var chosenDiscipline = "plavani";
 	var checkBoxes = new[5];
 	
-	var behProperties = ["BehCas", "BehVzd", "BehNast", "BehRych", "BehTep"];
-	var kolProperties = ["KolCas", "KolVzd", "KolNast", "KolRych", "KolTep"];
-	var plavProperties = ["PlaCas", "PlaVzd", "PlaRych", "PlaTep"];
+	var behProperties = ["BehCas", "BehVzd", "BehNast", "BehRych", "BehTep", "BehLim"];
+	var kolProperties = ["KolCas", "KolVzd", "KolNast", "KolRych", "KolTep", "KolLim"];
+	var plavProperties = ["PlaCas", "PlaVzd", "PlaRych", "PlaTep", "PlaLim"];
 	
 	
 	var dict = {"beh"=>behProperties, "kolo"=>kolProperties, "plavani"=>plavProperties};
