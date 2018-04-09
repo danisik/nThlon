@@ -13,4 +13,16 @@ module AppData {
 	
 	
 	var dict = {"beh"=>behProperties, "kolo"=>kolProperties, "plavani"=>plavProperties};
+	
+	var heartRate = null;
+	var speed = 0;
+	
+	var currEl = 0.0;
+	var beforeEl = 0;
+	var ascent = 0.0;
+	var avgSpeed = 0;
+	var avgHrt = 0;
+    var elpDist = 0;
+    var elpTime = 0;
+	
 }
