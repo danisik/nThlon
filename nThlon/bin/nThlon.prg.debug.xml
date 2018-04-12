@@ -1,602 +1,821 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="9" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="10" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="11" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="12" pc="268435488" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="15" pc="268435526" symbol="getIndex"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="16" pc="268435530" symbol="getIndex"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="17" pc="268435551" symbol="getIndex"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="20" pc="268435555" symbol="getSize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="21" pc="268435559" symbol="getSize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="24" pc="268435603" symbol="getValue"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="25" pc="268435607" symbol="getValue"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="26" pc="268435630" symbol="getValue"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="29" pc="268435642" symbol="getValue"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="32" pc="268435671" symbol="getDrawable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="33" pc="268435675" symbol="getDrawable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="34" pc="268435698" symbol="getDrawable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="37" pc="268435842" symbol="getDrawable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="40" pc="268435977" symbol="isDone"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="41" pc="268435981" symbol="isDone"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="10" pc="268436008" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="11" pc="268436012" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="14" pc="268436031" symbol="onSelectable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="15" pc="268436035" symbol="onSelectable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="17" pc="268436048" symbol="onSelectable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="18" pc="268436062" symbol="onSelectable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="20" pc="268436102" symbol="onSelectable"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="23" pc="268436106" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="24" pc="268436110" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="25" pc="268436127" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="26" pc="268436153" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="29" pc="268436157" symbol="onNextPage"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="30" pc="268436161" symbol="onNextPage"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="33" pc="268436186" symbol="pushMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="34" pc="268436190" symbol="pushMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="35" pc="268436214" symbol="pushMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="36" pc="268436238" symbol="pushMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="37" pc="268436260" symbol="pushMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="40" pc="268436264" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="41" pc="268436268" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="43" pc="268436281" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="44" pc="268436295" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="45" pc="268436331" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="46" pc="268436366" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="48" pc="268436428" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="51" pc="268436500" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="54" pc="268436563" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="57" pc="268436567" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="58" pc="268436571" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="59" pc="268436599" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="60" pc="268436620" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="6" pc="268436624" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="7" pc="268436628" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="11" pc="268436647" symbol="onStart"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="16" pc="268436652" symbol="onStop"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="20" pc="268436657" symbol="getInitialView"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="21" pc="268436661" symbol="getInitialView"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="7" pc="268436729" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="8" pc="268436733" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="11" pc="268436752" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="12" pc="268436756" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="13" pc="268436767" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="15" pc="268436810" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="16" pc="268436894" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="17" pc="268436933" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="18" pc="268436955" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="19" pc="268436966" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="20" pc="268437009" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="21" pc="268437048" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="22" pc="268437132" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="23" pc="268437151" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="24" pc="268437184" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="25" pc="268437195" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="26" pc="268437238" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="27" pc="268437322" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="28" pc="268437361" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="30" pc="268437383" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="31" pc="268437394" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="32" pc="268437418" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="34" pc="268437442" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="35" pc="268437458" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="36" pc="268437501" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="37" pc="268437533" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="38" pc="268437572" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="39" pc="268437635" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="40" pc="268437646" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="41" pc="268437689" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="42" pc="268437713" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="43" pc="268437767" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="47" pc="268437810" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="49" pc="268437814" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="50" pc="268437835" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="10" pc="268437839" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="11" pc="268437843" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="14" pc="268437862" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="16" pc="268437866" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="17" pc="268437885" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="21" pc="268437902" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="22" pc="268437906" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="24" pc="268437943" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="25" pc="268437977" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="26" pc="268438018" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="32" pc="268438032" symbol="onShow"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="36" pc="268438037" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="39" pc="268438041" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="40" pc="268438061" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="46" pc="268438116" symbol="onHide"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="12" pc="268438121" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="13" pc="268438125" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="14" pc="268438143" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="15" pc="268438185" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="18" pc="268438218" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="19" pc="268438222" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="20" pc="268438306" symbol="onMenu"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="23" pc="268438310" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="24" pc="268438314" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="25" pc="268438341" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="26" pc="268438362" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="28" pc="268438379" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="29" pc="268438387" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="30" pc="268438400" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="31" pc="268438424" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="32" pc="268438437" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="33" pc="268438461" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="37" pc="268438488" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="40" pc="268438524" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="41" pc="268438576" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="42" pc="268438592" symbol="onKey"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="46" pc="268438599" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="47" pc="268438603" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="48" pc="268438624" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="49" pc="268438641" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="50" pc="268438680" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="57" pc="268438762" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="59" pc="268438783" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="66" pc="268438825" symbol="onBack"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="69" pc="268438829" symbol="onTest"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="71" pc="268438833" symbol="onTest"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="72" pc="268438905" symbol="onTest"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="73" pc="268438921" symbol="onTest"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="76" pc="268438925" symbol="onSwipe"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="77" pc="268438929" symbol="onSwipe"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="80" pc="268438957" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="81" pc="268438961" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="82" pc="268438983" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="83" pc="268439000" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="84" pc="268439022" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="85" pc="268439044" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="86" pc="268439066" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="87" pc="268439088" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="88" pc="268439110" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="89" pc="268439132" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="95" pc="268439154" symbol="onSensor"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="16" pc="268439171" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="17" pc="268439175" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="20" pc="268439194" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="22" pc="268439198" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="23" pc="268439217" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="24" pc="268439274" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="25" pc="268439290" symbol="recordingtimercallback"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="29" pc="268439348" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="30" pc="268439352" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="31" pc="268439389" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="40" pc="268439441" symbol="onShow"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="45" pc="268439446" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="47" pc="268439450" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="48" pc="268439470" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="49" pc="268439506" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="50" pc="268439566" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="51" pc="268439626" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="52" pc="268439686" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="53" pc="268439746" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="54" pc="268439806" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="55" pc="268439866" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="56" pc="268439926" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="64" pc="268439987" symbol="onHide"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="11" pc="268439992" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="12" pc="268439996" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="14" pc="268440016" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="17" pc="268440041" symbol="unHighlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="18" pc="268440045" symbol="unHighlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="19" pc="268440065" symbol="unHighlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="21" pc="268440085" symbol="unHighlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="22" pc="268440105" symbol="unHighlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="26" pc="268440126" symbol="reset"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="27" pc="268440130" symbol="reset"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="28" pc="268440141" symbol="reset"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="30" pc="268440161" symbol="reset"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="31" pc="268440172" symbol="reset"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="35" pc="268440193" symbol="highlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="36" pc="268440197" symbol="highlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="37" pc="268440208" symbol="highlight"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="41" pc="268440229" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="42" pc="268440233" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="43" pc="268440244" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="45" pc="268440264" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="46" pc="268440275" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="48" pc="268440295" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="49" pc="268440306" symbol="select"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="60" pc="268440327" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="61" pc="268440331" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="63" pc="268440340" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="64" pc="268440385" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="66" pc="268440392" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="67" pc="268440454" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="68" pc="268440516" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="69" pc="268440578" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="70" pc="268440640" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="72" pc="268440654" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="73" pc="268440667" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="75" pc="268440681" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="76" pc="268440681" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="77" pc="268440707" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="78" pc="268440714" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="79" pc="268440733" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="80" pc="268440749" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="81" pc="268440756" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="83" pc="268440766" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="84" pc="268440773" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="85" pc="268440792" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="86" pc="268440808" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="87" pc="268440818" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="90" pc="268440852" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="120" pc="268440962" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="121" pc="268440993" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="122" pc="268441007" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="123" pc="268441045" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="124" pc="268441073" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="125" pc="268441111" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="126" pc="268441145" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="127" pc="268441183" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="128" pc="268441217" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="129" pc="268441255" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="130" pc="268441289" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="131" pc="268441330" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="132" pc="268441361" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="133" pc="268441375" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="134" pc="268441413" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="135" pc="268441441" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="136" pc="268441479" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="137" pc="268441513" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="138" pc="268441551" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="139" pc="268441585" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="140" pc="268441623" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="141" pc="268441657" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="142" pc="268441698" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="143" pc="268441729" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="144" pc="268441743" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="145" pc="268441781" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="146" pc="268441809" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="147" pc="268441847" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="148" pc="268441881" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="149" pc="268441919" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="150" pc="268441953" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="153" pc="268441994" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="154" pc="268442024" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="155" pc="268442042" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="156" pc="268442102" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="157" pc="268442161" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="163" pc="268442204" symbol="getList"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="164" pc="268442208" symbol="getList"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="167" pc="268442218" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="168" pc="268442222" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="169" pc="268442242" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="170" pc="268442281" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="173" pc="268442302" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="174" pc="268442312" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="176" pc="268442329" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="177" pc="268442349" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="179" pc="268442366" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="180" pc="268442386" symbol="handleEvent"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="189" pc="268442404" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="190" pc="268442408" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="192" pc="268442426" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="195" pc="268442437" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="196" pc="268442441" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="197" pc="268442473" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="198" pc="268442502" symbol="onLayout"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="201" pc="268442534" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="202" pc="268442538" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="11" pc="268442559" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="12" pc="268442563" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="13" pc="268442617" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="15" pc="268442630" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="17" pc="268442730" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="18" pc="268442733" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="20" pc="268442755" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="21" pc="268442762" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="22" pc="268442772" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="23" pc="268442776" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="26" pc="268442851" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="28" pc="268442961" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="31" pc="268443042" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="32" pc="268443046" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="33" pc="268443082" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="34" pc="268443094" symbol="onUpdate"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="37" pc="268443115" symbol="addCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="38" pc="268443119" symbol="addCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="39" pc="268443135" symbol="addCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="42" pc="268443162" symbol="removeCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="43" pc="268443166" symbol="removeCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="45" pc="268443219" symbol="removeCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="46" pc="268443245" symbol="removeCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="49" pc="268443301" symbol="removeCharacter"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="53" pc="268443328" symbol="getTitle"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="54" pc="268443332" symbol="getTitle"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="57" pc="268443351" symbol="getTitleLength"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="58" pc="268443355" symbol="getTitleLength"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="61" pc="268443374" symbol="isDone"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="62" pc="268443378" symbol="isDone"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="69" pc="268443399" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="70" pc="268443403" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="71" pc="268443421" symbol="initialize"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="74" pc="268443432" symbol="onCancel"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="75" pc="268443436" symbol="onCancel"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="76" pc="268443462" symbol="onCancel"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="79" pc="268443493" symbol="onCancel"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="83" pc="268443512" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="84" pc="268443516" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="85" pc="268443545" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="88" pc="268443574" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="89" pc="268443609" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="92" pc="268443642" symbol="onAccept"/>
-<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="95" pc="268443758" symbol="onAccept"/>
-<entry filename="Rez" lineNum="47" pc="268443787" symbol="initialize"/>
-<entry filename="Rez" lineNum="48" pc="268443791" symbol="initialize"/>
-<entry filename="Rez" lineNum="49" pc="268443809" symbol="initialize"/>
-<entry filename="Rez" lineNum="50" pc="268443861" symbol="initialize"/>
-<entry filename="Rez" lineNum="51" pc="268443913" symbol="initialize"/>
-<entry filename="Rez" lineNum="52" pc="268443965" symbol="initialize"/>
-<entry filename="Rez" lineNum="61" pc="268444018" symbol="initialize"/>
-<entry filename="Rez" lineNum="62" pc="268444022" symbol="initialize"/>
-<entry filename="Rez" lineNum="63" pc="268444040" symbol="initialize"/>
-<entry filename="Rez" lineNum="64" pc="268444092" symbol="initialize"/>
-<entry filename="Rez" lineNum="65" pc="268444144" symbol="initialize"/>
-<entry filename="Rez" lineNum="74" pc="268444167" symbol="initialize"/>
-<entry filename="Rez" lineNum="75" pc="268444171" symbol="initialize"/>
-<entry filename="Rez" lineNum="76" pc="268444189" symbol="initialize"/>
-<entry filename="Rez" lineNum="77" pc="268444211" symbol="initialize"/>
-<entry filename="Rez" lineNum="86" pc="268444234" symbol="initialize"/>
-<entry filename="Rez" lineNum="87" pc="268444238" symbol="initialize"/>
-<entry filename="Rez" lineNum="88" pc="268444256" symbol="initialize"/>
-<entry filename="Rez" lineNum="89" pc="268444308" symbol="initialize"/>
-<entry filename="Rez" lineNum="90" pc="268444360" symbol="initialize"/>
-<entry filename="Rez" lineNum="111" pc="268444413" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="115" pc="268444425" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="118" pc="268444794" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="127" pc="268444812" symbol="SecondLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="11" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="16" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="20" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonApp.mc" lineNum="21" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="11" pc="268435561" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="12" pc="268435565" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="13" pc="268435619" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="15" pc="268435632" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="17" pc="268435732" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="18" pc="268435735" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="20" pc="268435757" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="21" pc="268435764" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="22" pc="268435774" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="23" pc="268435778" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="26" pc="268435853" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="28" pc="268435963" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="31" pc="268436044" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="32" pc="268436048" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="33" pc="268436084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="34" pc="268436096" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="37" pc="268436117" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="38" pc="268436121" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="39" pc="268436137" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="42" pc="268436164" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="43" pc="268436168" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="45" pc="268436221" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="46" pc="268436247" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="49" pc="268436273" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="53" pc="268436300" symbol="getTitle"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="54" pc="268436304" symbol="getTitle"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="57" pc="268436323" symbol="getTitleLength"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="58" pc="268436327" symbol="getTitleLength"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="61" pc="268436346" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="62" pc="268436350" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="69" pc="268436371" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="70" pc="268436375" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="71" pc="268436393" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="74" pc="268436404" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="75" pc="268436408" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="76" pc="268436434" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="79" pc="268436465" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="83" pc="268436484" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="84" pc="268436488" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="85" pc="268436517" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="86" pc="268436543" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="91" pc="268436575" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="93" pc="268436686" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\LimitPicker.mc" lineNum="94" pc="268436802" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="43" pc="268436834" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="44" pc="268436838" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="45" pc="268436857" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="47" pc="268436873" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="48" pc="268436892" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="50" pc="268436908" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="51" pc="268436927" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="54" pc="268436943" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="58" pc="268436957" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="59" pc="268436961" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="60" pc="268436978" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="61" pc="268436999" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="62" pc="268437038" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="63" pc="268437059" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="70" pc="268437165" symbol="startDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="75" pc="268437190" symbol="endDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="76" pc="268437194" symbol="endDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="77" pc="268437230" symbol="endDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\Discipline.mc" lineNum="79" pc="268437248" symbol="endDiscipline"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="9" pc="268437261" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="10" pc="268437265" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="11" pc="268437283" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="12" pc="268437293" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="15" pc="268437331" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="16" pc="268437335" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="17" pc="268437356" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="20" pc="268437360" symbol="getSize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="21" pc="268437364" symbol="getSize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="24" pc="268437408" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="25" pc="268437412" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="26" pc="268437435" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="29" pc="268437447" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="32" pc="268437476" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="33" pc="268437480" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="34" pc="268437503" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="37" pc="268437647" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="40" pc="268437782" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CharacterFactory.mc" lineNum="41" pc="268437786" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="10" pc="268437813" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="11" pc="268437817" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="14" pc="268437836" symbol="onSelectable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="15" pc="268437840" symbol="onSelectable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="17" pc="268437853" symbol="onSelectable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="18" pc="268437867" symbol="onSelectable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="20" pc="268437907" symbol="onSelectable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="23" pc="268437911" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="24" pc="268437915" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="25" pc="268437932" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="26" pc="268437958" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="29" pc="268437962" symbol="onNextPage"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="30" pc="268437966" symbol="onNextPage"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="33" pc="268437991" symbol="pushMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="34" pc="268437995" symbol="pushMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="35" pc="268438019" symbol="pushMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="36" pc="268438043" symbol="pushMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="37" pc="268438065" symbol="pushMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="40" pc="268438069" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="41" pc="268438073" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="43" pc="268438086" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="44" pc="268438100" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="45" pc="268438136" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="46" pc="268438171" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="48" pc="268438233" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="51" pc="268438305" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="54" pc="268438368" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="57" pc="268438372" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="58" pc="268438376" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="59" pc="268438404" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxDelegate.mc" lineNum="60" pc="268438425" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="7" pc="268438429" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="8" pc="268438433" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="11" pc="268438452" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="12" pc="268438456" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="13" pc="268438467" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="15" pc="268438510" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="16" pc="268438594" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="17" pc="268438633" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="18" pc="268438655" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="19" pc="268438666" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="20" pc="268438709" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="21" pc="268438748" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="22" pc="268438832" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="23" pc="268438851" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="24" pc="268438884" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="25" pc="268438895" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="26" pc="268438938" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="27" pc="268439022" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="28" pc="268439061" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="30" pc="268439083" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="31" pc="268439094" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="32" pc="268439118" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="34" pc="268439142" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="35" pc="268439158" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="36" pc="268439201" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="37" pc="268439233" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="38" pc="268439272" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="39" pc="268439335" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="40" pc="268439346" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="41" pc="268439389" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="42" pc="268439413" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="43" pc="268439467" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="47" pc="268439510" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="49" pc="268439514" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="50" pc="268439535" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="53" pc="268439539" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="54" pc="268439543" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonMenuDelegate.mc" lineNum="55" pc="268439570" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="10" pc="268439595" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="11" pc="268439599" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="14" pc="268439618" symbol="recordingtimercallback"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="16" pc="268439622" symbol="recordingtimercallback"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="17" pc="268439641" symbol="recordingtimercallback"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="21" pc="268439658" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="22" pc="268439662" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="32" pc="268439700" symbol="onShow"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="36" pc="268439705" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="39" pc="268439709" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="40" pc="268439729" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonView.mc" lineNum="46" pc="268439784" symbol="onHide"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="12" pc="268439789" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="13" pc="268439793" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="15" pc="268439853" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="16" pc="268439921" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="18" pc="268439934" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="20" pc="268439956" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="21" pc="268439959" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="23" pc="268439981" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="24" pc="268439988" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="25" pc="268439998" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="29" pc="268440005" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="31" pc="268440115" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="34" pc="268440186" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="35" pc="268440190" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="36" pc="268440226" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="37" pc="268440238" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="40" pc="268440259" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="41" pc="268440263" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="42" pc="268440285" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="43" pc="268440313" symbol="addCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="46" pc="268440340" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="47" pc="268440344" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="48" pc="268440366" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="49" pc="268440394" symbol="removeCharacter"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="58" pc="268440421" symbol="getTitle"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="59" pc="268440425" symbol="getTitle"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="62" pc="268440444" symbol="getTitleLength"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="63" pc="268440448" symbol="getTitleLength"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="66" pc="268440467" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="67" pc="268440471" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="70" pc="268440492" symbol="getOrder"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="71" pc="268440496" symbol="getOrder"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="78" pc="268440506" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="79" pc="268440510" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="80" pc="268440528" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="83" pc="268440539" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="84" pc="268440543" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="85" pc="268440569" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="88" pc="268440600" symbol="onCancel"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="92" pc="268440619" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="93" pc="268440623" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="94" pc="268440647" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="95" pc="268440676" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="96" pc="268440699" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="97" pc="268440758" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="101" pc="268440782" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="102" pc="268440805" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="103" pc="268440833" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="104" pc="268440869" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="106" pc="268440927" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplinePicker.mc" lineNum="116" pc="268441002" symbol="onAccept"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="12" pc="268441024" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="13" pc="268441028" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="14" pc="268441046" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="15" pc="268441088" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="18" pc="268441121" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="19" pc="268441125" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="20" pc="268441209" symbol="onMenu"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="23" pc="268441213" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="24" pc="268441217" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="26" pc="268441244" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="40" pc="268441261" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="41" pc="268441285" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="42" pc="268441339" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="43" pc="268441355" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="47" pc="268441362" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="48" pc="268441366" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="49" pc="268441387" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="50" pc="268441404" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="51" pc="268441443" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="58" pc="268441525" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="60" pc="268441546" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="67" pc="268441588" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="70" pc="268441592" symbol="onTest"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="76" pc="268441596" symbol="onTest"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="79" pc="268441632" symbol="onTest"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="80" pc="268441684" symbol="onTest"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="81" pc="268441700" symbol="onTest"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="84" pc="268441704" symbol="onSwipe"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="85" pc="268441708" symbol="onSwipe"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="88" pc="268441736" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="89" pc="268441740" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="90" pc="268441762" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="91" pc="268441779" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="92" pc="268441801" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="93" pc="268441823" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="94" pc="268441845" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="95" pc="268441867" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="96" pc="268441889" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="97" pc="268441911" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\nThlonDelegate.mc" lineNum="103" pc="268441933" symbol="onSensor"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="13" pc="268441950" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="14" pc="268441954" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="17" pc="268441973" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="18" pc="268441977" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="19" pc="268442004" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="20" pc="268442034" symbol="onKey"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="31" pc="268442068" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="32" pc="268442072" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="35" pc="268442091" symbol="recordingtimercallback"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="41" pc="268442095" symbol="recordingtimercallback"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="45" pc="268442112" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="46" pc="268442116" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="47" pc="268442153" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="49" pc="268442204" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="50" pc="268442234" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="51" pc="268442268" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="52" pc="268442309" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="58" pc="268442323" symbol="onShow"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="63" pc="268442328" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="65" pc="268442332" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="66" pc="268442352" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="67" pc="268442388" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="68" pc="268442455" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\RecordingView.mc" lineNum="84" pc="268442529" symbol="onHide"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="11" pc="268442534" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="12" pc="268442538" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="14" pc="268442558" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="17" pc="268442583" symbol="unHighlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="18" pc="268442587" symbol="unHighlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="19" pc="268442607" symbol="unHighlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="21" pc="268442627" symbol="unHighlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="22" pc="268442647" symbol="unHighlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="26" pc="268442668" symbol="reset"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="27" pc="268442672" symbol="reset"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="28" pc="268442683" symbol="reset"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="30" pc="268442703" symbol="reset"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="31" pc="268442714" symbol="reset"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="35" pc="268442735" symbol="highlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="36" pc="268442739" symbol="highlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="37" pc="268442750" symbol="highlight"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="41" pc="268442771" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="42" pc="268442775" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="43" pc="268442786" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="45" pc="268442806" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="46" pc="268442817" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="48" pc="268442837" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="49" pc="268442848" symbol="select"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="60" pc="268442869" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="61" pc="268442873" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="63" pc="268442882" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="64" pc="268442927" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="66" pc="268442934" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="67" pc="268442996" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="68" pc="268443058" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="69" pc="268443120" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="70" pc="268443182" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="72" pc="268443196" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="73" pc="268443209" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="75" pc="268443223" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="76" pc="268443223" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="77" pc="268443249" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="78" pc="268443256" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="79" pc="268443275" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="80" pc="268443291" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="81" pc="268443298" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="83" pc="268443308" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="84" pc="268443315" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="85" pc="268443334" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="86" pc="268443350" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="87" pc="268443360" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="90" pc="268443394" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="120" pc="268443504" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="121" pc="268443535" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="122" pc="268443549" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="123" pc="268443587" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="124" pc="268443615" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="125" pc="268443653" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="126" pc="268443687" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="127" pc="268443725" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="128" pc="268443759" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="129" pc="268443797" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="130" pc="268443831" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="131" pc="268443872" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="132" pc="268443903" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="133" pc="268443917" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="134" pc="268443955" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="135" pc="268443983" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="136" pc="268444021" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="137" pc="268444055" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="138" pc="268444093" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="139" pc="268444127" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="140" pc="268444165" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="141" pc="268444199" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="142" pc="268444240" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="143" pc="268444271" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="144" pc="268444285" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="145" pc="268444323" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="146" pc="268444351" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="147" pc="268444389" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="148" pc="268444423" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="149" pc="268444461" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="150" pc="268444495" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="153" pc="268444536" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="154" pc="268444566" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="155" pc="268444584" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="156" pc="268444644" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="157" pc="268444703" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="163" pc="268444746" symbol="getList"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="164" pc="268444750" symbol="getList"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="167" pc="268444760" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="168" pc="268444764" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="169" pc="268444784" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="170" pc="268444823" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="173" pc="268444844" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="174" pc="268444854" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="176" pc="268444871" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="177" pc="268444891" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="179" pc="268444908" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="180" pc="268444928" symbol="handleEvent"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="189" pc="268444946" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="190" pc="268444950" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="192" pc="268444968" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="195" pc="268444979" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="196" pc="268444983" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="197" pc="268445015" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="198" pc="268445044" symbol="onLayout"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="201" pc="268445076" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\CheckBoxView.mc" lineNum="202" pc="268445080" symbol="onUpdate"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="10" pc="268445101" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="11" pc="268445105" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="13" pc="268445123" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="15" pc="268445133" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="16" pc="268445140" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="19" pc="268445167" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="20" pc="268445180" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="23" pc="268445203" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="26" pc="268445241" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="27" pc="268445245" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="28" pc="268445259" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="29" pc="268445289" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="30" pc="268445329" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="35" pc="268445351" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="36" pc="268445381" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="37" pc="268445406" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="42" pc="268445425" symbol="getIndex"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="45" pc="268445432" symbol="getSize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="46" pc="268445436" symbol="getSize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="49" pc="268445480" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="50" pc="268445484" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="51" pc="268445507" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="53" pc="268445519" symbol="getValue"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="56" pc="268445532" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="57" pc="268445536" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="58" pc="268445559" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="60" pc="268445703" symbol="getDrawable"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="63" pc="268445832" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\WordFactory.mc" lineNum="64" pc="268445836" symbol="isDone"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="7" pc="268445863" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="8" pc="268445867" symbol="initialize"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="11" pc="268445886" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="12" pc="268445890" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="13" pc="268445901" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="15" pc="268445935" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="17" pc="268446019" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="18" pc="268446041" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="19" pc="268446052" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="20" pc="268446095" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="21" pc="268446179" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="22" pc="268446198" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="23" pc="268446231" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="24" pc="268446242" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="25" pc="268446285" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="26" pc="268446369" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="27" pc="268446408" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="32" pc="268446431" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="34" pc="268446435" symbol="onBack"/>
+<entry filename="C:\\Users\\JanPi\\git\\nThlon\\nThlon\\.\\source\\DisciplineMenuDelegate.mc" lineNum="35" pc="268446456" symbol="onBack"/>
+<entry filename="Rez" lineNum="47" pc="268446460" symbol="initialize"/>
+<entry filename="Rez" lineNum="48" pc="268446464" symbol="initialize"/>
+<entry filename="Rez" lineNum="49" pc="268446482" symbol="initialize"/>
+<entry filename="Rez" lineNum="50" pc="268446534" symbol="initialize"/>
+<entry filename="Rez" lineNum="51" pc="268446586" symbol="initialize"/>
+<entry filename="Rez" lineNum="52" pc="268446638" symbol="initialize"/>
+<entry filename="Rez" lineNum="61" pc="268446691" symbol="initialize"/>
+<entry filename="Rez" lineNum="62" pc="268446695" symbol="initialize"/>
+<entry filename="Rez" lineNum="63" pc="268446713" symbol="initialize"/>
+<entry filename="Rez" lineNum="64" pc="268446765" symbol="initialize"/>
+<entry filename="Rez" lineNum="65" pc="268446817" symbol="initialize"/>
+<entry filename="Rez" lineNum="74" pc="268446840" symbol="initialize"/>
+<entry filename="Rez" lineNum="75" pc="268446844" symbol="initialize"/>
+<entry filename="Rez" lineNum="76" pc="268446862" symbol="initialize"/>
+<entry filename="Rez" lineNum="77" pc="268446884" symbol="initialize"/>
+<entry filename="Rez" lineNum="86" pc="268446907" symbol="initialize"/>
+<entry filename="Rez" lineNum="87" pc="268446911" symbol="initialize"/>
+<entry filename="Rez" lineNum="88" pc="268446929" symbol="initialize"/>
+<entry filename="Rez" lineNum="89" pc="268446981" symbol="initialize"/>
+<entry filename="Rez" lineNum="90" pc="268447033" symbol="initialize"/>
+<entry filename="Rez" lineNum="111" pc="268447086" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="115" pc="268447098" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="118" pc="268447467" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="127" pc="268447485" symbol="SecondLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389101" method="true" symbol="onSwipe"/>
-<entry id="34" method="true" symbol="unHighlight"/>
-<entry field="true" id="103" symbol="dict"/>
-<entry field="true" id="89" symbol="recordingtimer"/>
-<entry id="114" method="true" symbol="getIndex"/>
+<entry id="123" method="true" symbol="unHighlight"/>
+<entry field="true" id="100" symbol="dict"/>
+<entry field="true" id="86" symbol="recordingtimer"/>
+<entry id="21" object="true" symbol="DisciplinePicker"/>
+<entry id="111" method="true" symbol="getIndex"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="29" method="true" symbol="removeCharacter"/>
-<entry id="14" object="true" symbol="nThlonMenuDelegate"/>
-<entry field="true" id="71" symbol="AllowToneLabel"/>
-<entry field="true" id="82" symbol="ExerciseTimePrompt"/>
+<entry id="119" method="true" symbol="removeCharacter"/>
+<entry id="19" object="true" symbol="nThlonMenuDelegate"/>
+<entry field="true" id="67" symbol="AllowToneLabel"/>
+<entry field="true" id="78" symbol="ExerciseTimePrompt"/>
 <entry id="8389642" symbol="title"/>
 <entry id="8389629" method="true" symbol="getValue"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry field="true" id="11" symbol="keyToSelectable"/>
+<entry field="true" id="108" symbol="mWords"/>
+<entry id="147" symbol="dis_3"/>
+<entry id="146" symbol="dis_2"/>
+<entry id="144" symbol="dis_1"/>
+<entry field="true" id="17" symbol="keyToSelectable"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="24" object="true" symbol="LimitPickerDelegate"/>
-<entry field="true" id="44" symbol="checkBoxHighlighted"/>
-<entry field="true" id="90" symbol="elapsedtime"/>
-<entry id="48" object="true" symbol="MainMenu"/>
-<entry field="true" id="97" symbol="discovered"/>
-<entry field="true" id="83" symbol="ExerciseCountLabel"/>
-<entry id="129" symbol="Flexibility"/>
+<entry id="14" object="true" symbol="LimitPickerDelegate"/>
+<entry field="true" id="40" symbol="checkBoxHighlighted"/>
+<entry field="true" id="87" symbol="elapsedtime"/>
+<entry id="44" object="true" symbol="MainMenu"/>
+<entry field="true" id="95" symbol="discovered"/>
+<entry field="true" id="79" symbol="ExerciseCountLabel"/>
+<entry id="151" symbol="Flexibility"/>
+<entry id="30" object="true" symbol="WordFactory"/>
+<entry id="24" object="true" symbol="RecordingViewDelegate"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="8389897" symbol="stateDefault"/>
-<entry id="36" method="true" symbol="highlight"/>
+<entry id="125" method="true" symbol="highlight"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
-<entry id="28" method="true" symbol="addCharacter"/>
-<entry field="true" id="100" symbol="behProperties"/>
-<entry field="true" id="70" symbol="ActivityTypePrompt"/>
-<entry field="true" id="40" symbol="DefaultBackButton"/>
-<entry field="true" id="88" symbol="ExerciseCountError"/>
-<entry id="10" object="true" symbol="CharacterFactory"/>
-<entry id="17" object="true" symbol="nThlonDelegate"/>
-<entry id="126" symbol="Seven"/>
-<entry field="true" id="94" symbol="currentHighlight"/>
+<entry id="118" method="true" symbol="addCharacter"/>
+<entry field="true" id="97" symbol="behProperties"/>
+<entry field="true" id="66" symbol="ActivityTypePrompt"/>
+<entry field="true" id="36" symbol="DefaultBackButton"/>
+<entry field="true" id="84" symbol="ExerciseCountError"/>
+<entry id="16" object="true" symbol="CharacterFactory"/>
+<entry id="130" method="true" symbol="startDiscipline"/>
+<entry field="true" id="128" symbol="endTime"/>
+<entry id="23" object="true" symbol="nThlonDelegate"/>
+<entry field="true" id="8388731" symbol="startTime"/>
+<entry id="148" symbol="Seven"/>
+<entry field="true" id="113" symbol="currentHighlight"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="78" symbol="AllowVibrationLabel"/>
-<entry id="12" object="true" symbol="CheckBoxDelegate"/>
+<entry field="true" id="74" symbol="AllowVibrationLabel"/>
+<entry field="true" id="8389128" symbol="mFont"/>
+<entry id="18" object="true" symbol="CheckBoxDelegate"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="51" method="true" symbol="MainLayout"/>
-<entry field="true" id="59" symbol="notif_every_10s"/>
-<entry id="116" method="true" symbol="onSensor"/>
-<entry field="true" id="93" symbol="list"/>
+<entry id="47" method="true" symbol="MainLayout"/>
+<entry field="true" id="55" symbol="notif_every_10s"/>
+<entry id="92" method="true" symbol="onSensor"/>
+<entry field="true" id="32" symbol="list"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="106" symbol="ascent"/>
-<entry field="true" id="19" symbol="currentView"/>
+<entry field="true" id="103" symbol="ascent"/>
+<entry field="true" id="26" symbol="currentView"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="80" symbol="NotifPolicyLabel"/>
-<entry field="true" id="102" symbol="plavProperties"/>
-<entry field="true" id="68" symbol="rest"/>
-<entry field="true" id="58" symbol="cardio"/>
-<entry field="true" id="77" symbol="sevenminutes"/>
-<entry id="16" module="true" symbol="AppData"/>
+<entry field="true" id="76" symbol="NotifPolicyLabel"/>
+<entry field="true" id="99" symbol="plavProperties"/>
+<entry field="true" id="64" symbol="rest"/>
+<entry id="31" object="true" symbol="DisciplineMenuDelegate"/>
+<entry field="true" id="54" symbol="cardio"/>
+<entry field="true" id="73" symbol="sevenminutes"/>
+<entry id="12" module="true" symbol="AppData"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
+<entry field="true" id="133" symbol="stageSports"/>
 <entry field="true" id="8389103" symbol="behavior"/>
-<entry field="true" id="112" symbol="mAddOk"/>
-<entry field="true" id="81" symbol="ActivityTypeLabel"/>
+<entry field="true" id="109" symbol="mAddOk"/>
+<entry field="true" id="77" symbol="ActivityTypeLabel"/>
 <entry id="8389626" method="true" symbol="onAccept"/>
-<entry field="true" id="66" symbol="press_start"/>
-<entry field="true" id="108" symbol="avgHrt"/>
-<entry field="true" id="43" symbol="checkBoxSelected"/>
+<entry field="true" id="62" symbol="press_start"/>
+<entry field="true" id="105" symbol="avgHrt"/>
+<entry field="true" id="88" symbol="actualDiscipline"/>
+<entry field="true" id="39" symbol="checkBoxSelected"/>
 <entry field="true" id="8389900" symbol="stateDisabled"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="110" symbol="elpTime"/>
-<entry field="true" id="101" symbol="kolProperties"/>
-<entry field="true" id="63" symbol="AppName"/>
-<entry field="true" id="26" symbol="mTitleText"/>
+<entry field="true" id="107" symbol="elpTime"/>
+<entry field="true" id="98" symbol="kolProperties"/>
+<entry field="true" id="59" symbol="AppName"/>
+<entry field="true" id="116" symbol="mTitleText"/>
+<entry field="true" id="127" symbol="chosenSport"/>
 <entry field="true" id="8389898" symbol="stateHighlighted"/>
-<entry id="13" object="true" symbol="nThlonApp"/>
+<entry id="11" object="true" symbol="nThlonApp"/>
 <entry field="true" id="8389899" symbol="stateSelected"/>
 <entry id="8388890" symbol="sport"/>
 <entry field="true" id="8388892" symbol="name"/>
-<entry field="true" id="54" symbol="strength"/>
+<entry field="true" id="50" symbol="strength"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry id="127" symbol="Cardio"/>
+<entry id="149" symbol="Cardio"/>
 <entry id="8389084" method="true" symbol="handleEvent"/>
+<entry field="true" id="132" symbol="stageNames"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
-<entry id="21" object="true" symbol="CheckBoxList"/>
-<entry field="true" id="75" symbol="RestTimePrompt"/>
-<entry id="122" symbol="item_3"/>
-<entry id="121" symbol="item_2"/>
-<entry id="120" symbol="item_1"/>
-<entry id="111" method="true" symbol="pushMenu"/>
-<entry id="115" method="true" symbol="onTest"/>
-<entry field="true" id="46" symbol="LauncherIcon"/>
-<entry id="50" object="true" symbol="NotifPolicyMenu"/>
-<entry field="true" id="56" symbol="ExerciseTimeLabel"/>
-<entry field="true" id="72" symbol="saving_activity"/>
+<entry id="28" object="true" symbol="CheckBoxList"/>
+<entry field="true" id="71" symbol="RestTimePrompt"/>
+<entry id="141" symbol="item_3"/>
+<entry id="140" symbol="item_2"/>
+<entry id="139" symbol="item_1"/>
+<entry id="33" method="true" symbol="pushMenu"/>
+<entry id="91" method="true" symbol="onTest"/>
+<entry field="true" id="8389809" symbol="order"/>
+<entry field="true" id="42" symbol="LauncherIcon"/>
+<entry id="15" object="true" symbol="Discipline"/>
+<entry id="46" object="true" symbol="NotifPolicyMenu"/>
+<entry field="true" id="52" symbol="ExerciseTimeLabel"/>
+<entry field="true" id="68" symbol="saving_activity"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry id="91" method="true" symbol="recordingtimercallback"/>
-<entry field="true" id="105" symbol="beforeEl"/>
-<entry field="true" id="85" symbol="menu_label_2"/>
+<entry id="89" method="true" symbol="recordingtimercallback"/>
+<entry field="true" id="102" symbol="beforeEl"/>
+<entry field="true" id="81" symbol="menu_label_2"/>
 <entry id="8389081" method="true" symbol="onBack"/>
-<entry field="true" id="84" symbol="menu_label_1"/>
-<entry id="124" symbol="pick_2"/>
-<entry id="123" symbol="pick_1"/>
-<entry field="true" id="109" symbol="elpDist"/>
-<entry id="32" method="true" symbol="isDone"/>
-<entry field="true" id="62" symbol="stop_session"/>
-<entry id="23" object="true" symbol="LimitPicker"/>
+<entry field="true" id="80" symbol="menu_label_1"/>
+<entry id="143" symbol="pick_2"/>
+<entry id="142" symbol="pick_1"/>
+<entry field="true" id="106" symbol="elpDist"/>
+<entry id="112" method="true" symbol="isDone"/>
+<entry field="true" id="58" symbol="stop_session"/>
+<entry id="13" object="true" symbol="LimitPicker"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="30" method="true" symbol="getTitle"/>
-<entry field="true" id="60" symbol="ExerciseTimeError"/>
-<entry field="true" id="42" symbol="checkBoxDefault"/>
+<entry id="120" method="true" symbol="getTitle"/>
+<entry field="true" id="56" symbol="ExerciseTimeError"/>
+<entry field="true" id="38" symbol="checkBoxDefault"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="73" symbol="stringPickerTitle"/>
+<entry field="true" id="69" symbol="stringPickerTitle"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="53" symbol="no_notif"/>
+<entry field="true" id="49" symbol="no_notif"/>
 <entry id="8388891" symbol="subSport"/>
-<entry field="true" id="96" symbol="disciplines"/>
-<entry id="128" symbol="Strength"/>
+<entry field="true" id="93" symbol="disciplines"/>
+<entry id="150" symbol="Strength"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="57" symbol="notif_start_end"/>
-<entry id="22" object="true" symbol="CheckBoxView"/>
-<entry field="true" id="27" symbol="mFactory"/>
+<entry field="true" id="53" symbol="notif_start_end"/>
+<entry id="29" object="true" symbol="CheckBoxView"/>
+<entry field="true" id="117" symbol="mFactory"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="52" method="true" symbol="SecondLayout"/>
-<entry field="true" id="74" symbol="ExerciseCountPrompt"/>
-<entry field="true" id="25" symbol="mCharacterSet"/>
-<entry field="true" id="87" symbol="get_ready"/>
+<entry id="48" method="true" symbol="SecondLayout"/>
+<entry field="true" id="70" symbol="ExerciseCountPrompt"/>
+<entry field="true" id="115" symbol="mCharacterSet"/>
+<entry field="true" id="83" symbol="get_ready"/>
 <entry id="8389348" symbol="font"/>
-<entry id="132" symbol="Policy2"/>
-<entry id="131" symbol="Policy1"/>
-<entry id="130" symbol="Policy0"/>
-<entry id="31" method="true" symbol="getTitleLength"/>
-<entry id="117" symbol="addOk"/>
-<entry field="true" id="65" symbol="flexibility"/>
-<entry id="37" method="true" symbol="select"/>
+<entry id="154" symbol="Policy2"/>
+<entry id="153" symbol="Policy1"/>
+<entry id="152" symbol="Policy0"/>
+<entry id="121" method="true" symbol="getTitleLength"/>
+<entry id="136" symbol="addOk"/>
+<entry field="true" id="61" symbol="flexibility"/>
+<entry id="126" method="true" symbol="select"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="8388958" symbol="speed"/>
+<entry id="131" method="true" symbol="endDiscipline"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry field="true" id="79" symbol="AppVersionLabel"/>
-<entry id="18" object="true" symbol="RecordingView"/>
+<entry field="true" id="75" symbol="AppVersionLabel"/>
+<entry id="25" object="true" symbol="RecordingView"/>
 <entry field="true" id="8388651" symbol="session"/>
-<entry field="true" id="64" symbol="AppVersion"/>
+<entry field="true" id="60" symbol="AppVersion"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry field="true" id="55" symbol="characterPickerOk"/>
-<entry id="35" method="true" symbol="reset"/>
+<entry field="true" id="51" symbol="characterPickerOk"/>
+<entry id="124" method="true" symbol="reset"/>
+<entry field="true" id="129" symbol="disciplineSession"/>
+<entry field="true" id="134" symbol="stageSubSports"/>
 <entry id="8389890" method="true" symbol="onSelectable"/>
-<entry id="39" module="true" symbol="Layouts"/>
-<entry id="47" object="true" symbol="ActivityTypeMenu"/>
-<entry field="true" id="86" symbol="prompt"/>
+<entry id="35" module="true" symbol="Layouts"/>
+<entry id="43" object="true" symbol="ActivityTypeMenu"/>
+<entry field="true" id="82" symbol="prompt"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="107" symbol="avgSpeed"/>
-<entry id="49" object="true" symbol="PickMenu"/>
+<entry field="true" id="94" symbol="disciplinesOrder"/>
+<entry field="true" id="104" symbol="avgSpeed"/>
+<entry id="22" object="true" symbol="DisciplinePickerDelegate"/>
+<entry id="45" object="true" symbol="PickMenu"/>
 <entry field="true" id="8389892" symbol="background"/>
-<entry field="true" id="113" symbol="DONE"/>
-<entry field="true" id="98" symbol="chosenDiscipline"/>
+<entry field="true" id="110" symbol="DONE"/>
+<entry field="true" id="96" symbol="chosenDiscipline"/>
 <entry id="8389345" symbol="rezId"/>
-<entry field="true" id="104" symbol="currEl"/>
+<entry field="true" id="101" symbol="currEl"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="41" symbol="PressedBackButton"/>
+<entry field="true" id="37" symbol="PressedBackButton"/>
 <entry id="8389644" symbol="defaults"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry field="true" id="67" symbol="NotifPolicyPrompt"/>
+<entry field="true" id="63" symbol="NotifPolicyPrompt"/>
 <entry id="8389346" symbol="text"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry field="true" id="99" symbol="checkBoxes"/>
-<entry id="38" module="true" symbol="Menus"/>
-<entry field="true" id="33" symbol="stateHighlightedSelected"/>
+<entry field="true" id="85" symbol="checkBoxes"/>
+<entry id="34" module="true" symbol="Menus"/>
+<entry field="true" id="122" symbol="stateHighlightedSelected"/>
 <entry field="true" id="8388960" symbol="heartRate"/>
-<entry id="20" object="true" symbol="Checkbox"/>
-<entry field="true" id="92" symbol="mPicker"/>
+<entry id="27" object="true" symbol="Checkbox"/>
+<entry id="135" method="true" symbol="getOrder"/>
+<entry field="true" id="90" symbol="mPicker"/>
 <entry id="8389643" symbol="pattern"/>
-<entry id="95" method="true" symbol="getList"/>
-<entry id="15" object="true" symbol="nThlonView"/>
-<entry field="true" id="61" symbol="RestTimeLabel"/>
-<entry field="true" id="45" symbol="checkBoxHighlightedSelected"/>
+<entry id="114" method="true" symbol="getList"/>
+<entry id="20" object="true" symbol="nThlonView"/>
+<entry field="true" id="57" symbol="RestTimeLabel"/>
+<entry field="true" id="41" symbol="checkBoxHighlightedSelected"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8389630" method="true" symbol="getSize"/>
-<entry field="true" id="76" symbol="no_value"/>
+<entry field="true" id="72" symbol="no_value"/>
 <entry id="8389541" method="true" symbol="onCancel"/>
-<entry field="true" id="69" symbol="RestTimeError"/>
+<entry field="true" id="65" symbol="RestTimeError"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435526" name="characterSet" stackId="1" startPc="268435456"/>
-<entry endPc="268435526" name="options" stackId="2" startPc="268435456"/>
-<entry endPc="268435554" name="index" stackId="2" startPc="268435530"/>
-<entry endPc="268435555" name="value" stackId="1" startPc="268435526"/>
-<entry endPc="268435671" name="index" stackId="1" startPc="268435603"/>
-<entry endPc="268435977" name="index" stackId="1" startPc="268435671"/>
-<entry endPc="268435977" name="selected" stackId="2" startPc="268435671"/>
-<entry endPc="268436008" name="value" stackId="1" startPc="268435977"/>
-<entry endPc="268436105" name="instance" stackId="2" startPc="268436035"/>
-<entry endPc="268436106" name="event" stackId="1" startPc="268436031"/>
-<entry endPc="268436263" name="view" stackId="2" startPc="268436190"/>
-<entry endPc="268436263" name="delegate" stackId="3" startPc="268436190"/>
-<entry endPc="268436264" name="slideDir" stackId="1" startPc="268436186"/>
-<entry endPc="268436500" name="i" stackId="3" startPc="268436331"/>
-<entry endPc="268436566" name="key" stackId="2" startPc="268436268"/>
-<entry endPc="268436567" name="evt" stackId="1" startPc="268436264"/>
-<entry endPc="268436652" name="state" stackId="1" startPc="268436647"/>
-<entry endPc="268436657" name="state" stackId="1" startPc="268436652"/>
-<entry endPc="268437632" name="chDel" stackId="3" startPc="268437394"/>
-<entry endPc="268437632" name="chView" stackId="2" startPc="268437394"/>
-<entry endPc="268437806" name="picker" stackId="4" startPc="268437646"/>
-<entry endPc="268437810" name="item" stackId="1" startPc="268436752"/>
-<entry endPc="268438032" name="dc" stackId="1" startPc="268437902"/>
-<entry endPc="268438116" name="dc" stackId="1" startPc="268438037"/>
-<entry endPc="268438595" name="menu" stackId="4" startPc="268438341"/>
-<entry endPc="268438595" name="app" stackId="2" startPc="268438341"/>
-<entry endPc="268438595" name="array" stackId="3" startPc="268438341"/>
-<entry endPc="268438599" name="key" stackId="1" startPc="268438310"/>
-<entry endPc="268438957" name="swipeEvent" stackId="1" startPc="268438925"/>
-<entry endPc="268439170" name="cursession" stackId="2" startPc="268438961"/>
-<entry endPc="268439171" name="sensorInfo" stackId="1" startPc="268438957"/>
-<entry endPc="268439441" name="dc" stackId="1" startPc="268439348"/>
-<entry endPc="268439987" name="dc" stackId="1" startPc="268439446"/>
-<entry endPc="268440041" name="options" stackId="1" startPc="268439992"/>
-<entry endPc="268440193" name="previousState" stackId="1" startPc="268440126"/>
-<entry endPc="268440229" name="previousState" stackId="1" startPc="268440193"/>
-<entry endPc="268440327" name="previousState" stackId="1" startPc="268440229"/>
-<entry endPc="268442203" name="i" stackId="15" startPc="268442024"/>
-<entry endPc="268442203" name="offset" stackId="11" startPc="268440331"/>
-<entry endPc="268442203" name="checkBoxHighlightedSelected" stackId="6" startPc="268440331"/>
-<entry endPc="268442203" name="BORDER_PAD" stackId="2" startPc="268440331"/>
-<entry endPc="268442203" name="checkBoxHighlighted" stackId="4" startPc="268440331"/>
-<entry endPc="268442203" name="checkBoxSelected" stackId="5" startPc="268440331"/>
-<entry endPc="268442203" name="checkBoxDisabled" stackId="7" startPc="268440331"/>
-<entry endPc="268442203" name="spacing" stackId="10" startPc="268440331"/>
-<entry endPc="268442203" name="initY" stackId="13" startPc="268440331"/>
-<entry endPc="268442203" name="initX" stackId="12" startPc="268440331"/>
-<entry endPc="268442203" name="dims" stackId="8" startPc="268440331"/>
-<entry endPc="268442203" name="checkBoxDefault" stackId="3" startPc="268440331"/>
-<entry endPc="268442203" name="options" stackId="14" startPc="268440331"/>
-<entry endPc="268442203" name="slideSymbol" stackId="9" startPc="268440331"/>
-<entry endPc="268442204" name="dc" stackId="1" startPc="268440327"/>
-<entry endPc="268442404" name="instance" stackId="1" startPc="268442218"/>
-<entry endPc="268442404" name="previousState" stackId="2" startPc="268442218"/>
-<entry endPc="268442534" name="dc" stackId="1" startPc="268442437"/>
-<entry endPc="268442559" name="dc" stackId="1" startPc="268442534"/>
-<entry endPc="268443041" name="titleText" stackId="3" startPc="268442563"/>
-<entry endPc="268443041" name="string" stackId="1" startPc="268442563"/>
-<entry endPc="268443041" name="defaults" stackId="2" startPc="268442563"/>
-<entry endPc="268443115" name="dc" stackId="1" startPc="268443042"/>
-<entry endPc="268443162" name="character" stackId="1" startPc="268443115"/>
-<entry endPc="268443399" name="value" stackId="1" startPc="268443374"/>
-<entry endPc="268443432" name="picker" stackId="1" startPc="268443399"/>
-<entry endPc="268443787" name="values" stackId="1" startPc="268443512"/>
-<entry endPc="268444811" name="rez_cmp_local_custom_selectable_LKP71P1E1C7JL35G1XYQ" stackId="2" startPc="268444425"/>
-<entry endPc="268444812" name="dc" stackId="1" startPc="268444413"/>
-<entry endPc="268444825" name="dc" stackId="1" startPc="268444812"/>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268436043" name="titleText" stackId="3" startPc="268435565"/>
+<entry endPc="268436043" name="string" stackId="1" startPc="268435565"/>
+<entry endPc="268436043" name="defaults" stackId="2" startPc="268435565"/>
+<entry endPc="268436117" name="dc" stackId="1" startPc="268436044"/>
+<entry endPc="268436164" name="character" stackId="1" startPc="268436117"/>
+<entry endPc="268436371" name="value" stackId="1" startPc="268436346"/>
+<entry endPc="268436404" name="picker" stackId="1" startPc="268436371"/>
+<entry endPc="268436834" name="values" stackId="1" startPc="268436484"/>
+<entry endPc="268436957" name="sport" stackId="1" startPc="268436834"/>
+<entry endPc="268437331" name="characterSet" stackId="1" startPc="268437261"/>
+<entry endPc="268437331" name="options" stackId="2" startPc="268437261"/>
+<entry endPc="268437359" name="index" stackId="2" startPc="268437335"/>
+<entry endPc="268437360" name="value" stackId="1" startPc="268437331"/>
+<entry endPc="268437476" name="index" stackId="1" startPc="268437408"/>
+<entry endPc="268437782" name="index" stackId="1" startPc="268437476"/>
+<entry endPc="268437782" name="selected" stackId="2" startPc="268437476"/>
+<entry endPc="268437813" name="value" stackId="1" startPc="268437782"/>
+<entry endPc="268437910" name="instance" stackId="2" startPc="268437840"/>
+<entry endPc="268437911" name="event" stackId="1" startPc="268437836"/>
+<entry endPc="268438068" name="view" stackId="2" startPc="268437995"/>
+<entry endPc="268438068" name="delegate" stackId="3" startPc="268437995"/>
+<entry endPc="268438069" name="slideDir" stackId="1" startPc="268437991"/>
+<entry endPc="268438305" name="i" stackId="3" startPc="268438136"/>
+<entry endPc="268438371" name="key" stackId="2" startPc="268438073"/>
+<entry endPc="268438372" name="evt" stackId="1" startPc="268438069"/>
+<entry endPc="268439332" name="chDel" stackId="3" startPc="268439094"/>
+<entry endPc="268439332" name="chView" stackId="2" startPc="268439094"/>
+<entry endPc="268439506" name="picker" stackId="4" startPc="268439346"/>
+<entry endPc="268439510" name="item" stackId="1" startPc="268438452"/>
+<entry endPc="268439595" name="key" stackId="1" startPc="268439539"/>
+<entry endPc="268439700" name="dc" stackId="1" startPc="268439658"/>
+<entry endPc="268439784" name="dc" stackId="1" startPc="268439705"/>
+<entry endPc="268440185" name="titleText" stackId="4" startPc="268439793"/>
+<entry endPc="268440185" name="string" stackId="2" startPc="268439793"/>
+<entry endPc="268440185" name="disciplines" stackId="1" startPc="268439793"/>
+<entry endPc="268440185" name="defaults" stackId="3" startPc="268439793"/>
+<entry endPc="268440259" name="dc" stackId="1" startPc="268440186"/>
+<entry endPc="268440492" name="value" stackId="1" startPc="268440467"/>
+<entry endPc="268440539" name="picker" stackId="1" startPc="268440506"/>
+<entry endPc="268440927" name="i" stackId="2" startPc="268440869"/>
+<entry endPc="268441024" name="values" stackId="1" startPc="268440619"/>
+<entry endPc="268441358" name="picker" stackId="3" startPc="268441244"/>
+<entry endPc="268441358" name="app" stackId="2" startPc="268441244"/>
+<entry endPc="268441362" name="key" stackId="1" startPc="268441213"/>
+<entry endPc="268441703" name="menu" stackId="1" startPc="268441596"/>
+<entry endPc="268441736" name="swipeEvent" stackId="1" startPc="268441704"/>
+<entry endPc="268441949" name="cursession" stackId="2" startPc="268441740"/>
+<entry endPc="268441950" name="sensorInfo" stackId="1" startPc="268441736"/>
+<entry endPc="268442068" name="key" stackId="1" startPc="268441973"/>
+<entry endPc="268442323" name="dc" stackId="1" startPc="268442112"/>
+<entry endPc="268442529" name="dc" stackId="1" startPc="268442328"/>
+<entry endPc="268442583" name="options" stackId="1" startPc="268442534"/>
+<entry endPc="268442735" name="previousState" stackId="1" startPc="268442668"/>
+<entry endPc="268442771" name="previousState" stackId="1" startPc="268442735"/>
+<entry endPc="268442869" name="previousState" stackId="1" startPc="268442771"/>
+<entry endPc="268444745" name="i" stackId="15" startPc="268444566"/>
+<entry endPc="268444745" name="offset" stackId="11" startPc="268442873"/>
+<entry endPc="268444745" name="checkBoxHighlightedSelected" stackId="6" startPc="268442873"/>
+<entry endPc="268444745" name="BORDER_PAD" stackId="2" startPc="268442873"/>
+<entry endPc="268444745" name="checkBoxHighlighted" stackId="4" startPc="268442873"/>
+<entry endPc="268444745" name="checkBoxSelected" stackId="5" startPc="268442873"/>
+<entry endPc="268444745" name="checkBoxDisabled" stackId="7" startPc="268442873"/>
+<entry endPc="268444745" name="spacing" stackId="10" startPc="268442873"/>
+<entry endPc="268444745" name="initY" stackId="13" startPc="268442873"/>
+<entry endPc="268444745" name="initX" stackId="12" startPc="268442873"/>
+<entry endPc="268444745" name="dims" stackId="8" startPc="268442873"/>
+<entry endPc="268444745" name="checkBoxDefault" stackId="3" startPc="268442873"/>
+<entry endPc="268444745" name="options" stackId="14" startPc="268442873"/>
+<entry endPc="268444745" name="slideSymbol" stackId="9" startPc="268442873"/>
+<entry endPc="268444746" name="dc" stackId="1" startPc="268442869"/>
+<entry endPc="268444946" name="instance" stackId="1" startPc="268444760"/>
+<entry endPc="268444946" name="previousState" stackId="2" startPc="268444760"/>
+<entry endPc="268445076" name="dc" stackId="1" startPc="268444979"/>
+<entry endPc="268445101" name="dc" stackId="1" startPc="268445076"/>
+<entry endPc="268445241" name="options" stackId="2" startPc="268445101"/>
+<entry endPc="268445241" name="words" stackId="1" startPc="268445101"/>
+<entry endPc="268445348" name="i" stackId="2" startPc="268445289"/>
+<entry endPc="268445425" name="i" stackId="3" startPc="268445381"/>
+<entry endPc="268445432" name="value" stackId="1" startPc="268445241"/>
+<entry endPc="268445532" name="index" stackId="1" startPc="268445480"/>
+<entry endPc="268445832" name="index" stackId="1" startPc="268445532"/>
+<entry endPc="268445832" name="selected" stackId="2" startPc="268445532"/>
+<entry endPc="268445863" name="value" stackId="1" startPc="268445832"/>
+<entry endPc="268446431" name="item" stackId="1" startPc="268445886"/>
+<entry endPc="268447484" name="rez_cmp_local_custom_selectable_M4XS5TMP3ROA615D1H1B" stackId="2" startPc="268447098"/>
+<entry endPc="268447485" name="dc" stackId="1" startPc="268447086"/>
+<entry endPc="268447498" name="dc" stackId="1" startPc="268447485"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry accessMode="public" name="initialize" parent="nThlonApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="nThlonApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="nThlonApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="nThlonApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="LimitPicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="LimitPicker">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="addCharacter" parent="LimitPicker">
+<param id="character"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="removeCharacter" parent="LimitPicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTitle" parent="LimitPicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTitleLength" parent="LimitPicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isDone" parent="LimitPicker">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="LimitPickerDelegate">
+<param id="picker"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onCancel" parent="LimitPickerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onAccept" parent="LimitPickerDelegate">
+<param id="values"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Discipline">
+<param id="sport"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="startDiscipline" parent="Discipline">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="endDiscipline" parent="Discipline">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="CharacterFactory">
 <param id="characterSet"/>
 <param id="options"/>
@@ -646,20 +865,6 @@
 <functionEntry accessMode="public" name="onBack" parent="CheckBoxDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="nThlonApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="nThlonApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="nThlonApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="nThlonApp">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="nThlonMenuDelegate">
 <documentation/>
 </functionEntry>
@@ -668,6 +873,10 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onBack" parent="nThlonMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="nThlonMenuDelegate">
+<param id="key"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="nThlonView">
@@ -688,6 +897,43 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="nThlonView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="DisciplinePicker">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="addCharacter" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="removeCharacter" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTitle" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTitleLength" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isDone" parent="DisciplinePicker">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getOrder" parent="DisciplinePicker">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DisciplinePickerDelegate">
+<param id="picker"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onCancel" parent="DisciplinePickerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onAccept" parent="DisciplinePickerDelegate">
+<param id="values"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="nThlonDelegate">
@@ -712,6 +958,13 @@
 </functionEntry>
 <functionEntry accessMode="public" name="onSensor" parent="nThlonDelegate">
 <param id="sensorInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RecordingViewDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="RecordingViewDelegate">
+<param id="key"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="RecordingView">
@@ -776,39 +1029,39 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="LimitPicker">
+<functionEntry accessMode="public" name="initialize" parent="WordFactory">
+<param id="words"/>
+<param id="options"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="LimitPicker">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="addCharacter" parent="LimitPicker">
-<param id="character"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="removeCharacter" parent="LimitPicker">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getTitle" parent="LimitPicker">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getTitleLength" parent="LimitPicker">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="isDone" parent="LimitPicker">
+<functionEntry accessMode="public" name="getIndex" parent="WordFactory">
 <param id="value"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="LimitPickerDelegate">
-<param id="picker"/>
+<functionEntry accessMode="public" name="getSize" parent="WordFactory">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onCancel" parent="LimitPickerDelegate">
+<functionEntry accessMode="public" name="getValue" parent="WordFactory">
+<param id="index"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onAccept" parent="LimitPickerDelegate">
-<param id="values"/>
+<functionEntry accessMode="public" name="getDrawable" parent="WordFactory">
+<param id="index"/>
+<param id="selected"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isDone" parent="WordFactory">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DisciplineMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenuItem" parent="DisciplineMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="DisciplineMenuDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="ActivityTypeMenu">
@@ -833,30 +1086,36 @@
 </functionEntry>
 </functions>
 <dataEntryOffsetMappings>
-<dataEntry offset="95" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="342" parentId="globals" symbolId="nThlonApp" type="class"/>
-<dataEntry offset="413" parentId="globals" symbolId="LimitPicker" type="class"/>
-<dataEntry offset="532" parentId="globals" symbolId="Checkbox" type="class"/>
-<dataEntry offset="619" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="698" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="785" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="848" parentId="Menus" symbolId="ActivityTypeMenu" type="class"/>
-<dataEntry offset="895" parentId="Menus" symbolId="PickMenu" type="class"/>
-<dataEntry offset="942" parentId="Menus" symbolId="MainMenu" type="class"/>
-<dataEntry offset="989" parentId="Menus" symbolId="NotifPolicyMenu" type="class"/>
-<dataEntry offset="1036" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="1067" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="1098" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="1145" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1464" parentId="globals" symbolId="RecordingView" type="class"/>
-<dataEntry offset="1567" parentId="globals" symbolId="LimitPickerDelegate" type="class"/>
-<dataEntry offset="1638" parentId="globals" symbolId="CheckBoxList" type="class"/>
-<dataEntry offset="1717" parentId="globals" symbolId="AppData" type="module"/>
-<dataEntry offset="1884" parentId="globals" symbolId="nThlonMenuDelegate" type="class"/>
-<dataEntry offset="1947" parentId="globals" symbolId="CheckBoxView" type="class"/>
-<dataEntry offset="2018" parentId="globals" symbolId="CheckBoxDelegate" type="class"/>
-<dataEntry offset="2121" parentId="globals" symbolId="CharacterFactory" type="class"/>
-<dataEntry offset="2232" parentId="globals" symbolId="nThlonView" type="class"/>
-<dataEntry offset="2335" parentId="globals" symbolId="nThlonDelegate" type="class"/>
+<dataEntry offset="103" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="430" parentId="globals" symbolId="CheckBoxDelegate" type="class"/>
+<dataEntry offset="533" parentId="globals" symbolId="RecordingViewDelegate" type="class"/>
+<dataEntry offset="588" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="667" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="754" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="817" parentId="Menus" symbolId="ActivityTypeMenu" type="class"/>
+<dataEntry offset="864" parentId="Menus" symbolId="PickMenu" type="class"/>
+<dataEntry offset="911" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="958" parentId="Menus" symbolId="NotifPolicyMenu" type="class"/>
+<dataEntry offset="1005" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1036" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1067" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1114" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1433" parentId="globals" symbolId="CheckBoxView" type="class"/>
+<dataEntry offset="1504" parentId="globals" symbolId="DisciplineMenuDelegate" type="class"/>
+<dataEntry offset="1567" parentId="globals" symbolId="nThlonMenuDelegate" type="class"/>
+<dataEntry offset="1638" parentId="globals" symbolId="RecordingView" type="class"/>
+<dataEntry offset="1749" parentId="globals" symbolId="LimitPickerDelegate" type="class"/>
+<dataEntry offset="1820" parentId="globals" symbolId="nThlonDelegate" type="class"/>
+<dataEntry offset="1923" parentId="globals" symbolId="AppData" type="module"/>
+<dataEntry offset="2098" parentId="globals" symbolId="WordFactory" type="class"/>
+<dataEntry offset="2217" parentId="globals" symbolId="nThlonApp" type="class"/>
+<dataEntry offset="2288" parentId="globals" symbolId="DisciplinePickerDelegate" type="class"/>
+<dataEntry offset="2359" parentId="globals" symbolId="CheckBoxList" type="class"/>
+<dataEntry offset="2438" parentId="globals" symbolId="LimitPicker" type="class"/>
+<dataEntry offset="2557" parentId="globals" symbolId="Checkbox" type="class"/>
+<dataEntry offset="2644" parentId="globals" symbolId="nThlonView" type="class"/>
+<dataEntry offset="2747" parentId="globals" symbolId="Discipline" type="class"/>
+<dataEntry offset="2897" parentId="globals" symbolId="CharacterFactory" type="class"/>
+<dataEntry offset="3008" parentId="globals" symbolId="DisciplinePicker" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

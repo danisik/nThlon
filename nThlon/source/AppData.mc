@@ -1,6 +1,7 @@
 
 module AppData {
 	var disciplines = {};
+	var disciplinesOrder = 0;
 	
 	var discovered = [0, 0, 0];
 	

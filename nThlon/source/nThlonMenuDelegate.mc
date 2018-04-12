@@ -49,5 +49,11 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
         Sys.println("ZMACKNUTO2");
         return true;
     }
+    
+    function onKey(key) {
+        if (key.getKey() == Ui.KEY_ENTER) {
+        	Sys.println("ZMACKNUTO");
+        }
+    }
 
 }

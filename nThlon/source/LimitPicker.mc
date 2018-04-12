@@ -43,7 +43,7 @@ class LimitPicker extends Ui.Picker {
         mTitleText = mTitleText.substring(0, mTitleText.length() - 1);
 
         if(0 == mTitleText.length()) {
-            mTitle.setText(Ui.loadResource(Rez.Strings.stringPickerTitle));
+            mTitle.setText("");
         }
         else {
             mTitle.setText(mTitleText);
@@ -82,17 +82,23 @@ class LimitPickerDelegate extends Ui.PickerDelegate {
 
     function onAccept(values) {
         if(!mPicker.isDone(values[0])) {
-            mPicker.addCharacter(values[0]);
+        	if (mPicker.getTitleLength() < 3) {
+        		mPicker.addCharacter(values[0]);
+        	}
+            //mPicker.addCharacter(values[0]);
         }
         else {
-            if(mPicker.getTitle().length() == 0) {
-                App.getApp().deleteProperty("string");
+            if(mPicker.getTitle().length() != 0 && mPicker.getTitle().toNumber() > 90 && 
+            	mPicker.getTitle().toNumber() < 300) {
+            	App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1], mPicker.getTitle());
+            	Ui.popView(Ui.SLIDE_IMMEDIATE);
+                //App.getApp().deleteProperty("string");
             }
             else {
-            	App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1], mPicker.getTitle());
+            	//App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1], mPicker.getTitle());
                 //App.getApp().setProperty("string", mPicker.getTitle());
             }
-            Ui.popView(Ui.SLIDE_IMMEDIATE);
+            //Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
     }
 

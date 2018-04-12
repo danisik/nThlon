@@ -21,9 +21,9 @@ class nThlonView extends Ui.View {
     function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
         
-        recordingtimer = new Timer.Timer();
+        /*recordingtimer = new Timer.Timer();
 		recordingtimer.start( method(:recordingtimercallback), 100, true );
-		elapsedtime = 0;
+		elapsedtime = 0;*/
     }
 
     // Called when this View is brought to the foreground. Restore
