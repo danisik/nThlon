@@ -5,6 +5,7 @@ using Toybox.System as Sys;
 
 var currentView = null;
 
+/** Trida reprezentujici jeden checkbox */
 class Checkbox extends Ui.Selectable {
     var stateHighlightedSelected;
 
@@ -51,6 +52,7 @@ class Checkbox extends Ui.Selectable {
     }
 }
 
+/** List checkboxu, ktere budou zobrazeny ve view */
 class CheckBoxList {
     hidden var list;
 
@@ -182,6 +184,7 @@ class CheckBoxList {
     }
 }
 
+/** View ktere slouzi pro vyber hodnot, ktere budou zobrazeny v dane discipline */
 class CheckBoxView extends Ui.View {
 
     var checkBoxes = null;

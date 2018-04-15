@@ -2,6 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.Timer as Timer;
 
+/** Hlavni view */
 class nThlonView extends Ui.View {
 
 	var recordingtimer;

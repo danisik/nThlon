@@ -3,6 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 
+/** Picker ktery slouzi pro vyber limitu tepu k jednotlivym disciplinam */
 class LimitPicker extends Ui.Picker {
     const mCharacterSet = "0123456789";
     hidden var mTitleText;
@@ -63,6 +64,7 @@ class LimitPicker extends Ui.Picker {
     }
 }
 
+/** Slouzi pro reakci na potvrzeni nebo zruseni vyberu v limit pickeru */
 class LimitPickerDelegate extends Ui.PickerDelegate {
     hidden var mPicker;
 

@@ -5,6 +5,7 @@ using Toybox.ActivityRecording;
 using Toybox.Sensor;
 using Toybox.Activity as Act;
 
+/** Slouzi pro rekaci na tlacitka atp. v hlavnim view (nthlonview) */
 class nThlonDelegate extends Ui.BehaviorDelegate {
 
 	var session = null;

@@ -1,4 +1,4 @@
-
+/** Modul pro ulozeni dat se kterymi aplikace pracuje */
 module AppData {
 	var disciplines = {};
 	var disciplinesOrder = 0;

@@ -1,6 +1,7 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
+/** Hlavni trida aplikace */
 class nThlonApp extends App.AppBase {
 
     function initialize() {

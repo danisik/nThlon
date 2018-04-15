@@ -1,6 +1,7 @@
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
+/** PickerFactory slouzi k urceni, ktere objekty budou zobrazeny pomoci pickeru - pouzito pro limitpicker*/
 class CharacterFactory extends Ui.PickerFactory {
     hidden var mCharacterSet;
     hidden var mAddOk;

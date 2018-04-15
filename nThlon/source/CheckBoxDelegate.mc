@@ -4,6 +4,7 @@ using Toybox.Application as App;
 
 var keyToSelectable = false;
 
+/** Slouzi pro rekaci na tlacitka atp. v checkbox view */
 class CheckBoxDelegate extends Ui.BehaviorDelegate {
 	var list = null;
 

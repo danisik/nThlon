@@ -6,7 +6,7 @@ using Toybox.Lang as Lang;
 using Toybox.System as Sys;
 using Toybox.Timer as Timer;
 
-
+/** Trida reprezentujici jednu disciplinu */
 class Discipline {
 	static var stageNames = [
 		"Beh", 

@@ -9,6 +9,7 @@ using Toybox.System as Sys;
 using Toybox.Timer as Timer;
 using Toybox.Sensor as Sensor;
 
+/** Slouzi pro rekaci na tlacitka atp. v RecordingView */
 class RecordingViewDelegate extends Ui.BehaviorDelegate {
 	function initialize() {
         BehaviorDelegate.initialize();
@@ -23,6 +24,7 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
     }
 }
 
+/** View ktere slouzi pro zobrazeni vsech dulezitych hodnot behem provadeni discpliny (napr. heartrate, rychlost atp.) */
 class RecordingView extends Ui.View {
 	var recordingtimer;
 	var elapsedtime = 55;

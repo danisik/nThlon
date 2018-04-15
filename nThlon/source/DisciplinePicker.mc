@@ -3,6 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 
+/** Picker pro vyber disciplin ktere uzivatel bude vykonavat */
 class DisciplinePicker extends Ui.Picker {
     const mCharacterSet = "0123456789";
     hidden var mTitleText;
@@ -72,6 +73,7 @@ class DisciplinePicker extends Ui.Picker {
     }
 }
 
+/** Slouzi pro reakci na potvrzeni nebo zruseni vyberu v discipline pickeru*/
 class DisciplinePickerDelegate extends Ui.PickerDelegate {
     hidden var mPicker;
 

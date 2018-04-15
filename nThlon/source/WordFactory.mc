@@ -1,6 +1,6 @@
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
-
+/** PickerFactory slouzi k urceni, ktere objekty budou zobrazeny pomoci pickeru - pouzito pro discipline picker */
 class WordFactory extends Ui.PickerFactory {
     var mWords;
     var mFont;

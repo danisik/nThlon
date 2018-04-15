@@ -2,6 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 using Toybox.Application as App;
 
+/** Slouzi pro reakci na itemy v menu pro vyber disciplin (Discipline picker) */
 class DisciplineMenuDelegate extends Ui.MenuInputDelegate {
 
     function initialize() {

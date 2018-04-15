@@ -2,6 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 using Toybox.Application as App;
 
+/** Slouzi pro reakci na itemy v menu slouzici pro prechod do nastaveni */
 class nThlonMenuDelegate extends Ui.MenuInputDelegate {
 
     function initialize() {
