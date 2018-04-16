@@ -73,6 +73,7 @@ class RecordingView extends Ui.View {
         dc.drawText(20, 100, Gfx.FONT_MEDIUM, Act.getActivityInfo().averageSpeed, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 120, Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedDistance, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 140, Gfx.FONT_MEDIUM, Act.getActivityInfo().totalAscent, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 160, Gfx.FONT_MEDIUM, Sensor.getInfo().heartRate, Gfx.TEXT_JUSTIFY_LEFT);
         //Sys.println(Sys.getTimer());
         /*dc.drawText(20, 40, Gfx.FONT_MEDIUM, AppData.speed, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 60, Gfx.FONT_MEDIUM, AppData.avgSpeed, Gfx.TEXT_JUSTIFY_LEFT);
