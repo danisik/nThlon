@@ -83,7 +83,7 @@ class DisciplinePickerDelegate extends Ui.PickerDelegate {
     }
 
     function onCancel() {
-        if(1 == mPicker.getOrder()) {
+        if(0 == mPicker.getOrder()) {
             Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
         else {

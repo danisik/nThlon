@@ -67,7 +67,12 @@ class RecordingView extends Ui.View {
         View.onUpdate(dc);
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         dc.drawText(20, 20, Gfx.FONT_MEDIUM, Act.getActivityInfo().currentHeartRate, Gfx.TEXT_JUSTIFY_LEFT);
-        dc.drawText(20, 40, Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedTime / 1000, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 40, Gfx.FONT_MEDIUM, Act.getActivityInfo().averageHeartRate, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 60, Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedTime / 1000, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 80, Gfx.FONT_MEDIUM, Act.getActivityInfo().currentSpeed, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 100, Gfx.FONT_MEDIUM, Act.getActivityInfo().averageSpeed, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 120, Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedDistance, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(20, 140, Gfx.FONT_MEDIUM, Act.getActivityInfo().totalAscent, Gfx.TEXT_JUSTIFY_LEFT);
         //Sys.println(Sys.getTimer());
         /*dc.drawText(20, 40, Gfx.FONT_MEDIUM, AppData.speed, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 60, Gfx.FONT_MEDIUM, AppData.avgSpeed, Gfx.TEXT_JUSTIFY_LEFT);
