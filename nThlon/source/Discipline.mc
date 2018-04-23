@@ -33,6 +33,7 @@ class Discipline {
 		Rez.Drawables.TransIcon ];*/
 
 	var chosenSport;
+	var chosenDiscipline;
 	
 	var startTime = 0;
 	var endTime = 0;
@@ -41,7 +42,7 @@ class Discipline {
 	
 	
 	function initialize(sport) {
-		if (sport.equals("Beh")) {
+		/*if (sport.equals("Beh")) {
 			chosenSport = 0;
 		}
 		else if (sport.equals("Kolo")) {
@@ -52,6 +53,24 @@ class Discipline {
 		}
 		else {
 			chosenSport = 3;
+		}*/
+		
+		switch (sport) {
+			case "Beh":
+				chosenSport = 0;
+				chosenDiscipline = "beh";
+				break;
+			case "Kolo":
+				chosenSport = 1;
+				chosenDiscipline = "kolo";
+				break;
+			case "Plavani":
+				chosenSport = 2;
+				chosenDiscipline = "plavani";
+				break;
+			default:
+				chosenSport = 3;
+				break;
 		}
 	}
 	

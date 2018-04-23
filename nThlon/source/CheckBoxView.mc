@@ -54,10 +54,12 @@ class Checkbox extends Ui.Selectable {
 
 /** List checkboxu, ktere budou zobrazeny ve view */
 class CheckBoxList {
-    hidden var list;
-
+    hidden var list = [];
+	var labels;
+	
     hidden var currentHighlight;
-
+	var slideSymbol, spacing, offset, initX, initY, dims;
+	
     //! Constructor
     function initialize(dc) {
         currentHighlight = null;
@@ -71,10 +73,10 @@ class CheckBoxList {
         var checkBoxHighlightedSelected = new Ui.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlightedSelected});
         var checkBoxDisabled = Gfx.COLOR_BLACK;
 
-        var dims = checkBoxDefault.getDimensions();
-        list = new[5];
+        dims = checkBoxDefault.getDimensions();
+        //list = new[5];
 
-        var slideSymbol, spacing, offset, initX, initY;
+        //var slideSymbol, spacing, offset, initX, initY;
         if (dc.getHeight() > dc.getWidth()) {
             slideSymbol = :locY;
             spacing = (dc.getHeight() / 4);
@@ -97,9 +99,11 @@ class CheckBoxList {
             :stateHighlightedSelected=>checkBoxHighlightedSelected,
             :locX=>initX,
             :locY=>initY,
-            :width=>dims[0],
-            :height=>dims[1]
+            :width=>50,
+            :height=>30
             };
+            
+            Sys.println(dims[0] + "   " + dims[1]);
         /*list[0] = new Checkbox(options);
 
         // Create the second check-box
@@ -119,17 +123,44 @@ class CheckBoxList {
         list[4] = new Checkbox(options);*/
         
         /* ZDE BUDE ZMENA V KODU */
-        if (AppData.chosenDiscipline.equals("beh")) {
-        	list = new[5];
-        	list[0] = new Checkbox(options);
+        //list = {};
+        list.add(new Checkbox(options));
+        options.put(slideSymbol, initY + dims[1] + offset);
+        list.add(new Checkbox(options));
+        options.put(slideSymbol, initY + 2 * (dims[1] + offset));
+        list.add(new Checkbox(options));
+        options.put(slideSymbol, initY + 3 * (dims[1] + offset));
+        list.add(new Checkbox(options));
+        
+        switch (AppData.chosenDiscipline) {
+        	case "beh":
+        		options.put(slideSymbol, initY + 4 * (dims[1] + offset));
+        		list.add(new Checkbox(options));
+        		labels = ["Beh", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
+        		break;
+        	case "kolo":
+        		options.put(slideSymbol, initY + 4 * (dims[1] + offset));
+        		list.add(new Checkbox(options));
+        		labels = ["Beh", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
+        		break;
+        	case "plavani":
+        		labels = ["Beh", "Vzdalenost", "Rychlost", "Tep"];
+        		break;
+        }
+        
+        //list = new[1];
+        /*if (AppData.chosenDiscipline.equals("beh")) {
+        	//list = new[5];
+        	Sys.println("HAH");
+        	list.add(new Checkbox(options));
         	options.put(slideSymbol, initY + dims[1] + offset);
-        	list[1] = new Checkbox(options);
+        	list.add(new Checkbox(options));
         	options.put(slideSymbol, initY + 2 * (dims[1] + offset));
-        	list[2] = new Checkbox(options);
+        	list.add(new Checkbox(options));
         	options.put(slideSymbol, initY + 3 * (dims[1] + offset));
-        	list[3] = new Checkbox(options);
+        	list.add(new Checkbox(options));
         	options.put(slideSymbol, initY + 4 * (dims[1] + offset));
-        	list[4] = new Checkbox(options);
+        	list.add(new Checkbox(options));
         } else if (AppData.chosenDiscipline.equals("kolo")) {
         	list = new[5];
         	list[0] = new Checkbox(options);
@@ -150,7 +181,7 @@ class CheckBoxList {
         	list[2] = new Checkbox(options);
         	options.put(slideSymbol, initY + 3 * (dims[1] + offset));
         	list[3] = new Checkbox(options);
-        }
+        }*/
         
         for (var i = 0; i < list.size(); i += 1) {
         	Sys.println(i);
@@ -203,5 +234,10 @@ class CheckBoxView extends Ui.View {
 
     function onUpdate(dc) {
         View.onUpdate(dc);
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        
+        for (var i = 0; i < checkBoxes.labels.size(); i += 1) {
+        	dc.drawText(checkBoxes.initX + 40, checkBoxes.initY + i * (checkBoxes.dims[1] + checkBoxes.offset), Gfx.FONT_MEDIUM, checkBoxes.labels[i], Gfx.TEXT_JUSTIFY_LEFT);
+        }
     }
 }

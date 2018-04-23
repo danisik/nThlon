@@ -1,9 +1,13 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="DefaultBackButton" filename="button.png" dithering="none" />
-    <bitmap id="PressedBackButton" filename="button1.png" dithering="none" />
+    <!--<bitmap id="PressedBackButton" filename="button1.png" dithering="none" />-->
     <bitmap id="checkBoxDefault" filename="checkbox_default.png" dithering="none" />
     <bitmap id="checkBoxSelected" filename="checkbox_selected.png" dithering="none" />
     <bitmap id="checkBoxHighlighted" filename="checkbox_highlighted.png" dithering="none" />
     <bitmap id="checkBoxHighlightedSelected" filename="checkbox_highlighted_selected.png" dithering="none" />
+    <bitmap id="leftArrow" filename="leftArrow.png" dithering="none" />
+    <bitmap id="rightArrow" filename="rightArrow.png" dithering="none" />
+    <bitmap id="OK" filename="OK.png" dithering="none" />
+    <bitmap id="NOTOK" filename="NOTOK.png" dithering="none" />
 </drawables>

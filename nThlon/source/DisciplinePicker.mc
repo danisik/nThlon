@@ -29,7 +29,7 @@ class DisciplinePicker extends Ui.Picker {
 
         mTitle = new Ui.Text({:text=>titleText, :locX =>Ui.LAYOUT_HALIGN_CENTER, :locY=>Ui.LAYOUT_VALIGN_BOTTOM, :color=>Gfx.COLOR_WHITE});
 
-        Picker.initialize({:title=>mTitle, :pattern=>[mFactory]});
+        Picker.initialize({:title=>mTitle, :pattern=>[mFactory]});                        
     }
 
     function onUpdate(dc) {

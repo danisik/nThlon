@@ -5,20 +5,23 @@
 		<property id="BehNast" type="boolean">true</property>
 		<property id="BehRych" type="boolean">true</property>
 		<property id="BehTep" type="boolean">true</property>
-    <property id="BehLim" type="string">111</property>
+    <property id="BehLimH" type="string">999</property>
+    <property id="BehLimS" type="string">0</property>
     
     <property id="KolCas" type="boolean">true</property>
 		<property id="KolVzd" type="boolean">true</property>
 		<property id="KolNast" type="boolean">true</property>
 		<property id="KolRych" type="boolean">true</property>
 		<property id="KolTep" type="boolean">true</property>
-    <property id="KolLim" type="string">111</property>
+    <property id="KolLimH" type="string">999</property>
+    <property id="KolLimS" type="string">0</property>
     
     <property id="PlaCas" type="boolean">true</property>
 		<property id="PlaVzd" type="boolean">true</property>
 		<property id="PlaRych" type="boolean">true</property>
 		<property id="PlaTep" type="boolean">true</property>
-    <property id="PlaLim" type="string">111</property>
+    <property id="PlaLimH" type="string">999</property>
+    <property id="PlaLimS" type="string">0</property>
     
     <property id="string" type="string">111</property>
 	</properties>

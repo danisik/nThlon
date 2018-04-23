@@ -5,16 +5,42 @@
     <bitmap id="id_monkey" x="center" y="30" filename="../drawables/monkey.png" /> -->
     <button x="0" y="center" width="155" height="74" background="Gfx.COLOR_BLACK" behavior="onTest">
         <state id="stateDefault" bitmap="@Drawables.DefaultBackButton" />
-        <state id="stateHighlighted" bitmap="@Drawables.PressedBackButton" />
-        <state id="stateSelected" bitmap="@Drawables.PressedBackButton" />
-        <state id="stateDisabled" color="Gfx.COLOR_BLACK" />
+        <state id="stateHighlighted" bitmap="@Drawables.DefaultBackButton" />
+        <state id="stateSelected" bitmap="@Drawables.DefaultBackButton" />
+        <state id="stateDisabled" color="Gfx.COLOR_BLACK" /> 
     </button>
+</layout>
+
+<layout id="TestLayout">
 </layout>
 
 <layout id="SecondLayout">
     <!--<label x="center" y="5" text="@Strings.prompt" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <bitmap id="id_monkey" x="center" y="30" filename="../drawables/monkey.png" /> -->
-    
+    <bitmap id="id_monkey" x="center" y="30" filename="../drawables/monkey.png" /> --> 
+    <button x="0" y="center" width="74" height="70" background="Gfx.COLOR_BLACK" behavior="onLeftArrow">
+        <state id="stateDefault" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateHighlighted" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateSelected" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateDisabled" color="Gfx.COLOR_TRANSPARENT" />
+    </button>
+    <button x="74" y="center" width="74" height="70" background="Gfx.COLOR_BLACK" behavior="onRightArrow">
+        <state id="stateDefault" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateHighlighted" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateSelected" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateDisabled" color="Gfx.COLOR_TRANSPARENT" /> 
+    </button>
+    <button x="74" y="155" width="74" height="50" background="Gfx.COLOR_BLACK" behavior="onOK">
+        <state id="stateDefault" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateHighlighted" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateSelected" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateDisabled" color="Gfx.COLOR_TRANSPARENT" /> 
+    </button>
+    <button x="0" y="155" width="74" height="50" background="Gfx.COLOR_BLACK" behavior="onNotOK">
+        <state id="stateDefault" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateHighlighted" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateSelected" color="Gfx.COLOR_TRANSPARENT" />
+        <state id="stateDisabled" color="Gfx.COLOR_TRANSPARENT" /> 
+    </button>
 </layout>
 
 </resources>

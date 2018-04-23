@@ -5,7 +5,8 @@
     <menu-item id="item_3" label="Plavání" />
 </menu>
 <menu id="PickMenu">
-    <menu-item id="pick_1" label="Limit" />
-    <menu-item id="pick_2" label="Výběr" />
+    <menu-item id="pick_1" label="Horní limit" />
+    <menu-item id="pick_2" label="Spodní limit" />
+    <menu-item id="pick_3" label="Výběr" />
 </menu>
 </menus>

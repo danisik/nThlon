@@ -1,16 +1,11 @@
 using Toybox.WatchUi as Ui;
-using Toybox.Graphics as Gfx;
-using Toybox.Timer as Timer;
-using Toybox.System as Sys;
 
-enum {
-	DISCIPLINE_BEH,
-	DISCIPLINE_KOLO,
-	DISCIPLINE_PLAVANI
+class SwitchDelegate extends Ui.BehaviorDelegate {
+
 }
 
 /** Hlavni view */
-class nThlonView extends Ui.View {
+class SwitchView extends Ui.View {
 
     function initialize() {
         View.initialize();
@@ -18,7 +13,7 @@ class nThlonView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+        setLayout(Rez.Layouts.TestLayout(dc));
         
         /*recordingtimer = new Timer.Timer();
 		recordingtimer.start( method(:recordingtimercallback), 100, true );
@@ -34,7 +29,7 @@ class nThlonView extends Ui.View {
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        Sys.println(DISCIPLINE_KOLO);
+        
         View.onUpdate(dc);
     }
 
