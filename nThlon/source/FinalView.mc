@@ -11,35 +11,39 @@ using Toybox.Sensor as Sensor;
 
 /** Slouzi pro rekaci na tlacitka atp. v RecordingView */
 class FinalViewDelegate extends Ui.BehaviorDelegate {
-	function initialize() {
+	var finalView;
+
+	function initialize(finalView) {
         BehaviorDelegate.initialize();
+        self.finalView = finalView;
     }
     
     function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
-        	
-        	AppData.disciplines[AppData.actualDiscipline].endDiscipline();
-        	AppData.actualDiscipline += 1;
-        	if (AppData.disciplines.size() > AppData.actualDiscipline) {
-        		AppData.disciplines[AppData.actualDiscipline].startDiscipline();
-        	}
-        	else {
-        		//Ui.switchToView(new nThlonView(), new nThlonDelegate(), Ui.SLIDE_RIGHT);
-        		Ui.popView(Ui.SLIDE_RIGHT);
-        	}
+        	Ui.popView(Ui.SLIDE_RIGHT);
         }
         
     }
     
     function onSwipe(swipeEvent) {
+    	if (AppData.disciplines.size() > 5) {
+    		if (swipeEvent.getDirection() == Ui.SWIPE_LEFT) {
+    			finalView.page = 1;
+    		}
+    		else if (swipeEvent.getDirection() == Ui.SWIPE_RIGHT) {
+    			finalView.page = 0;
+    		}
+    	}
     }
 }
 
 /** View ktere slouzi pro zobrazeni vsech dulezitych hodnot behem provadeni discpliny (napr. heartrate, rychlost atp.) */
 class FinalView extends Ui.View {
-
+	var page;
+	
     function initialize() {
         View.initialize();
+        self.page = 0;
     }
 
 
@@ -57,7 +61,32 @@ class FinalView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
+    	View.onUpdate(dc);
+    	
+    	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+    
+    	var step;
+    	
+    	var toPage = 5;
+    	
+    	if (AppData.disciplines.size() < 6) {
+    		toPage = AppData.disciplines.size();
+    	}
+    	
+        if (page == 0) {
+        	step = 0;
+        }
+        else {
+        	step = 5;
+        	toPage = AppData.disciplines.size();
+        }
         
+        dc.drawBitmap(1, 1, Ui.loadResource(Rez.Drawables.FinalIcon));
+        dc.drawText(50, 6, Gfx.FONT_MEDIUM, "FINISH", Gfx.TEXT_JUSTIFY_LEFT);
+        
+        for (var i = step; i < toPage; i++) {
+        	dc.drawText(1 , 50 + (i % 5) * (30), Gfx.FONT_MEDIUM, Discipline.stageNames[AppData.disciplines[i].chosenDiscipline] + ": " +Functions.convertTime(AppData.disciplines[i].endTime - AppData.disciplines[i].startTime)[1], Gfx.TEXT_JUSTIFY_LEFT);
+        }
     }
 
     // Called when this View is removed from the screen. Save the

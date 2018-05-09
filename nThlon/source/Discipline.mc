@@ -64,19 +64,19 @@ class Discipline {
 		switch (sport) {
 			case DISCIPLINE_RUNNING:
 				chosenSport = 0;
-				chosenDiscipline = "beh";
+				chosenDiscipline = DISC_RUNNING;
 				break;
 			case DISCIPLINE_CYCLING:
 				chosenSport = 1;
-				chosenDiscipline = "kolo";
+				chosenDiscipline = DISC_CYCLING;
 				break;
 			case DISCIPLINE_SWIMMING:
 				chosenSport = 2;
-				chosenDiscipline = "plavani";
+				chosenDiscipline = DISC_SWIMMING;
 				break;
 			default:
 				chosenSport = 3;
-				chosenDiscipline = "depo";
+				chosenDiscipline = DISC_DEPO;
 				break;
 		}
 		
@@ -127,16 +127,16 @@ class Discipline {
 	function drawInfo(dc) {
 		//var chosenDiscipline = AppData.disciplines[AppData.actualDiscipline].chosenDiscipline;
 		switch (chosenDiscipline) {
-			case "beh":
+			case DISC_RUNNING:
 				Functions.drawInfoBeh(dc);
 				break;
-			case "kolo":
+			case DISC_CYCLING:
 				Functions.drawInfoKolo(dc);
 				break;
-			case "plavani":
+			case DISC_SWIMMING:
 				Functions.drawInfoPlavani(dc);
 				break;
-			case "depo":
+			case DISC_DEPO:
 				Functions.drawInfoDepo(dc);
 				break;
 		}

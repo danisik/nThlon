@@ -22,7 +22,8 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
 	function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
         	//var app = Application.getApp();
-        	var options = [DISCIPLINE_RUNNING, DISCIPLINE_CYCLING, DISCIPLINE_SWIMMING, DISCIPLINE_DEPO];
+        	var stages = Discipline.stageNames;
+        	var options = [stages[DISC_RUNNING], stages[DISC_CYCLING], stages[DISC_SWIMMING], stages[DISC_DEPO]];
         	var picker = new OwnDiscPicker(options);
         	var menu = new Rez.Menus.MainMenu();
         	//Ui.pushView(menu, new nThlonMenuDelegate(), Ui.SLIDE_UP);

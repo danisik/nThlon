@@ -8,6 +8,13 @@ enum {
 	JEDNOTKA,
 	HODNOTA
 }
+
+enum {
+	DISC_RUNNING,
+	DISC_CYCLING,
+	DISC_SWIMMING,
+	DISC_DEPO
+}
 	
 module AppData {
 
@@ -30,7 +37,7 @@ module AppData {
 	var depoProperties = [];
 	
 	
-	var dict = {"beh"=>behProperties, "kolo"=>kolProperties, "plavani"=>plavProperties, "depo"=>depoProperties};
+	var dict = {DISC_RUNNING=>behProperties, DISC_CYCLING=>kolProperties, DISC_SWIMMING=>plavProperties, DISC_DEPO=>depoProperties};
 	
 	/*var heartRate = null;
 	var speed = 0;

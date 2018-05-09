@@ -2,7 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 using Toybox.Application as App;
 
-var keyToSelectable = true;
+var keyToSelectable = false;
 
 /** Slouzi pro rekaci na tlacitka atp. v checkbox view */
 class CheckBoxDelegate extends Ui.BehaviorDelegate {
@@ -22,19 +22,19 @@ class CheckBoxDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
-        /*keyToSelectable = !keyToSelectable;
+        keyToSelectable = !keyToSelectable;
         currentView.setKeyToSelectableInteraction(keyToSelectable);
-        return true;*/
+        return true;
     }
 
     function onNextPage() {
-        //return pushMenu(Ui.SLIDE_IMMEDIATE);
+        return pushMenu(Ui.SLIDE_IMMEDIATE);
     }
 
     function pushMenu(slideDir) {
-        var view = new ButtonView();
+        /*var view = new ButtonView();
         var delegate = new ButtonDelegate();
-        Ui.pushView(view, delegate, slideDir);
+        Ui.pushView(view, delegate, slideDir);*/
         return true;
     }
 

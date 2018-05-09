@@ -11,21 +11,21 @@ class DisciplineMenuDelegate extends Ui.MenuInputDelegate {
 
     function onMenuItem(item) {
         if (item == :dis_1) {
-        	AppData.disciplines[AppData.disciplinesOrder] = "beh";
+        	AppData.disciplines[AppData.disciplinesOrder] = DISC_RUNNING;
         	//Ui.pushView(new CheckBoxView(), new CheckBoxDelegate(), Ui.SLIDE_UP);
         	Ui.pushView(new Rez.Menus.DisciplineMenu(), new DisciplineMenuDelegate(), Ui.SLIDE_UP);
             //Sys.println(AppData.disciplines.size());
-            AppData.chosenDiscipline = "beh";
+            AppData.chosenDiscipline = DISC_RUNNING;
         } else if (item == :dis_2) {
-        	AppData.disciplines[AppData.disciplines.size()] = "kolo";
+        	AppData.disciplines[AppData.disciplines.size()] = DISC_CYCLING;
             Ui.pushView(new Rez.Menus.DisciplineMenu(), new DisciplineMenuDelegate(), Ui.SLIDE_UP);
-            AppData.chosenDiscipline = "kolo";
+            AppData.chosenDiscipline = DISC_CYCLING;
             Sys.println(AppData.chosenDiscipline);
         } else if (item == :dis_3) {
-        	AppData.disciplines[AppData.disciplines.size()] = "plavani";
+        	AppData.disciplines[AppData.disciplines.size()] = DISC_SWIMMING;
         	Ui.pushView(new Rez.Menus.DisciplineMenu(), new DisciplineMenuDelegate(), Ui.SLIDE_UP);
             Sys.println(AppData.disciplines.size());
-            AppData.chosenDiscipline = "plavani";
+            AppData.chosenDiscipline = DISC_SWIMMING;
             
         }
     }

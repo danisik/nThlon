@@ -25,7 +25,11 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
         	}
         	else {
         		//Ui.switchToView(new nThlonView(), new nThlonDelegate(), Ui.SLIDE_RIGHT);
-        		Ui.popView(Ui.SLIDE_RIGHT);
+        		var finalView = new FinalView();
+        		
+        		Ui.switchToView(finalView, new FinalViewDelegate(finalView), Ui.SLIDE_UP);
+        		//Ui.popView(Ui.SLIDE_RIGHT);
+        		
         	}
         }
         
