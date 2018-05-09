@@ -10,4 +10,8 @@
     <bitmap id="rightArrow" filename="rightArrow.png" dithering="none" />
     <bitmap id="OK" filename="OK.png" dithering="none" />
     <bitmap id="NOTOK" filename="NOTOK.png" dithering="none" />
+    <bitmap id="RunIcon" filename="run.png" dithering="none" />
+    <bitmap id="CycleIcon" filename="cycle.png" dithering="none" />
+    <bitmap id="SwimIcon" filename="swim.png" dithering="none" />
+    <bitmap id="TransIcon" filename="transistion.png" dithering="none" />
 </drawables>

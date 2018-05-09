@@ -1,10 +1,13 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
-using Toybox.Position as Pos;
-using Toybox.ActivityRecording as Rec;
+using Toybox.Graphics as Gfx;
 using Toybox.Lang as Lang;
+using Toybox.Activity as Act;
+using Toybox.ActivityRecording as Rec;
+using Toybox.Position as Pos;
 using Toybox.System as Sys;
 using Toybox.Timer as Timer;
+using Toybox.Sensor as Sensor;
 
 /** Trida reprezentujici jednu disciplinu */
 class Discipline {
@@ -26,17 +29,20 @@ class Discipline {
 		Rec.SUB_SPORT_OPEN_WATER,
 		Rec.SUB_SPORT_GENERIC ];
 		
-	/*static var stageIcons = [ 
+	static var stageIcons = [ 
 		Rez.Drawables.RunIcon,
 		Rez.Drawables.CycleIcon,
 		Rez.Drawables.SwimIcon,
-		Rez.Drawables.TransIcon ];*/
+		Rez.Drawables.TransIcon ];
 
+	var lastVibration = 0;
 	var chosenSport;
 	var chosenDiscipline;
 	
 	var startTime = 0;
 	var endTime = 0;
+	var arr = [];
+	var posun = [];
 	
 	var disciplineSession;
 	
@@ -56,22 +62,37 @@ class Discipline {
 		}*/
 		
 		switch (sport) {
-			case "Beh":
+			case DISCIPLINE_RUNNING:
 				chosenSport = 0;
 				chosenDiscipline = "beh";
 				break;
-			case "Kolo":
+			case DISCIPLINE_CYCLING:
 				chosenSport = 1;
 				chosenDiscipline = "kolo";
 				break;
-			case "Plavani":
+			case DISCIPLINE_SWIMMING:
 				chosenSport = 2;
 				chosenDiscipline = "plavani";
 				break;
 			default:
 				chosenSport = 3;
+				chosenDiscipline = "depo";
 				break;
 		}
+		
+		var properties = AppData.dict[chosenDiscipline];
+		for (var i = 0; i < properties.size(); i += 1) {
+			if (App.getApp().getProperty(properties[i]) == true) {
+				arr.add(1);
+				posun.add(Gfx.FONT_MEDIUM);
+			}
+		}
+		if (arr.size() > 0) {
+			arr[0] = 0;
+			posun[0] = Gfx.FONT_SYSTEM_NUMBER_MEDIUM;
+		}
+		
+		arr.add(1); // pro average hodnotu
 	}
 	
 	function startDiscipline() {
@@ -87,6 +108,7 @@ class Discipline {
                 }
            );
            disciplineSession.start();
+           startTime = Sys.getTimer();
        	}
        	}
 	}
@@ -96,7 +118,28 @@ class Discipline {
            disciplineSession.stop();
            //disciplineSession.discard();
            disciplineSession = null;
+           AppData.biggerInfo = 1;
+           endTime = Sys.getTimer();
            //session.ge
        	}
 	}
+	
+	function drawInfo(dc) {
+		//var chosenDiscipline = AppData.disciplines[AppData.actualDiscipline].chosenDiscipline;
+		switch (chosenDiscipline) {
+			case "beh":
+				Functions.drawInfoBeh(dc);
+				break;
+			case "kolo":
+				Functions.drawInfoKolo(dc);
+				break;
+			case "plavani":
+				Functions.drawInfoPlavani(dc);
+				break;
+			case "depo":
+				Functions.drawInfoDepo(dc);
+				break;
+		}
+	}
+	
 }

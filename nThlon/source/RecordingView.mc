@@ -24,7 +24,8 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
         		AppData.disciplines[AppData.actualDiscipline].startDiscipline();
         	}
         	else {
-        		Ui.switchToView(new nThlonView(), new nThlonDelegate(), Ui.SLIDE_RIGHT);
+        		//Ui.switchToView(new nThlonView(), new nThlonDelegate(), Ui.SLIDE_RIGHT);
+        		Ui.popView(Ui.SLIDE_RIGHT);
         	}
         }
         
@@ -32,8 +33,15 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
     
     function onSwipe(swipeEvent) {
     	if (swipeEvent.getDirection() == Ui.SWIPE_DOWN) {
-    		if (AppData.biggerInfo < 5) {
+    		var arr = AppData.disciplines[AppData.actualDiscipline].arr;
+    		var posun = AppData.disciplines[AppData.actualDiscipline].posun;
+    		if (AppData.biggerInfo < arr.size() - 1) {
+    			//var arr = AppData.disciplines[AppData.actualDiscipline].arr;
+    			arr[AppData.biggerInfo] = 0;
+    			posun[AppData.biggerInfo - 1] = Gfx.FONT_MEDIUM;
+    			posun[AppData.biggerInfo] = Gfx.FONT_SYSTEM_NUMBER_MEDIUM;
     			AppData.biggerInfo += 1;
+    			
     			/*Sys.println(AppData.biggerInfo);
     			var test = (0.4).toNumber();
     			Sys.println((0.4).toNumber());*/
@@ -41,7 +49,12 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
     	}
     	else if (swipeEvent.getDirection() == Ui.SWIPE_UP) {
     		if (AppData.biggerInfo > 1) {
+    			var arr = AppData.disciplines[AppData.actualDiscipline].arr;
+    			var posun = AppData.disciplines[AppData.actualDiscipline].posun;
     			AppData.biggerInfo -= 1;
+    			arr[AppData.biggerInfo] = 1;
+    			posun[AppData.biggerInfo - 1] = Gfx.FONT_SYSTEM_NUMBER_MEDIUM;
+    			posun[AppData.biggerInfo] = Gfx.FONT_MEDIUM;
     			//Sys.println(AppData.biggerInfo);
     		}
     	}
@@ -68,7 +81,17 @@ class RecordingView extends Ui.View {
     	dc.drawText(20, 20, Gfx.FONT_MEDIUM, "Ahojjjjjjjjjjj", Gfx.TEXT_JUSTIFY_LEFT);
         Ui.requestUpdate();
         dc.drawText(20, 20, Gfx.FONT_MEDIUM, "Ahojjjjjjjjjjj", Gfx.TEXT_JUSTIFY_LEFT);*/
+        //Functions.pos = info.accuracy;
         Ui.requestUpdate();
+        //Gfx.Dc.drawText(100 - 1, 29, Gfx.FONT_SYSTEM_NUMBER_MEDIUM, info.accuracy, Gfx.TEXT_JUSTIFY_RIGHT);
+    }
+    
+    function position(info) {
+    	Functions.pos = info.accuracy;
+    }
+    
+    function heartrate(info) {
+    	Functions.hr = info.heartRate;
     }
 
     // Load your resources here
@@ -80,6 +103,9 @@ class RecordingView extends Ui.View {
         recordingtimer = new Timer.Timer();
 		recordingtimer.start( method(:recordingtimercallback), 100, true );
 		elapsedtime = 0;
+		Pos.enableLocationEvents(Pos.LOCATION_CONTINUOUS, method(:position));
+		Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE]);
+    	Sensor.enableSensorEvents(method(:heartrate));
 		
 		switch (AppData.disciplines[0].chosenDiscipline) {
 			case "beh":
@@ -162,6 +188,8 @@ class RecordingView extends Ui.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
+        
+        
         var arr = [];
         for (var i = 0; i < 5; i += 1) {
         	arr.add(AppData.biggerInfo > i ? 0 : 1);
@@ -169,18 +197,26 @@ class RecordingView extends Ui.View {
         
         activityInfo = Act.getActivityInfo();
         
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         dc.setPenWidth(5);
         /*dc.drawText(20, 20, AppData.biggerInfo == 1 ? Gfx.FONT_SYSTEM_NUMBER_MEDIUM : Gfx.FONT_MEDIUM, test[0], Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 40 + 25 * arr[1], AppData.biggerInfo == 2 ? Gfx.FONT_SYSTEM_NUMBER_MEDIUM : Gfx.FONT_MEDIUM, Act.getActivityInfo().averageHeartRate, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 60 + 25 * arr[2], AppData.biggerInfo == 3 ? Gfx.FONT_SYSTEM_NUMBER_MEDIUM : Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedTime / 1000, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 80 + 25 * arr[3], AppData.biggerInfo == 4 ? Gfx.FONT_SYSTEM_NUMBER_MEDIUM : Gfx.FONT_MEDIUM, Act.getActivityInfo().currentSpeed, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 100 + 25 * arr[4], AppData.biggerInfo == 5 ? Gfx.FONT_SYSTEM_NUMBER_MEDIUM : Gfx.FONT_MEDIUM, Act.getActivityInfo().averageSpeed, Gfx.TEXT_JUSTIFY_LEFT);*/
-        Sys.println(test1[0]);
+        //Sys.println(test1[0]);
+        var actualDis = AppData.disciplines[AppData.actualDiscipline];
+        
+        if (actualDis instanceof Discipline) {
+        	dc.drawText(50, 6, Gfx.FONT_MEDIUM, Functions.convertTime(Sys.getTimer() - AppData.disciplines[0].startTime)[1], Gfx.TEXT_JUSTIFY_LEFT);
+        	actualDis.drawInfo(dc);
+        }
+        
+        	//actualDis.drawInfo(dc);
         /*for (var i = 0; i < test.size(); i += 1) {
         	dc.drawText(20, 20*(i+1) + 25 * arr[i], AppData.biggerInfo == (i+1) ? Gfx.FONT_SYSTEM_LARGE : Gfx.FONT_MEDIUM, Functions.convertSpeed(test[i])[1], Gfx.TEXT_JUSTIFY_LEFT);
         }*/
-        if (App.getApp().getProperty(AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline][0])) {
+        /*if (App.getApp().getProperty(AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline][0])) {
     		dc.drawText(20, 20 + 25 * arr[0], AppData.biggerInfo == 1 ? Gfx.FONT_SYSTEM_LARGE : Gfx.FONT_MEDIUM, Functions.convertTime(Act.getActivityInfo().elapsedTime)[1], Gfx.TEXT_JUSTIFY_LEFT);
     	}
     	if (App.getApp().getProperty(AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline][1])) {
@@ -198,7 +234,7 @@ class RecordingView extends Ui.View {
     	if (App.getApp().getProperty(AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline][4])) {
     		dc.drawText(20, 100 + 25 * arr[4], AppData.biggerInfo == 5 ? Gfx.FONT_SYSTEM_LARGE : Gfx.FONT_MEDIUM, (Act.getActivityInfo().currentHeartRate), Gfx.TEXT_JUSTIFY_LEFT);
     		dc.drawText(dc.getWidth() - 1, 100 + 25 * arr[4], AppData.biggerInfo == 5 ? Gfx.FONT_SYSTEM_LARGE : Gfx.FONT_MEDIUM, "bpm", Gfx.TEXT_JUSTIFY_RIGHT);
-    	}
+    	}*/
         /*dc.drawText(20, 120, Gfx.FONT_MEDIUM, Act.getActivityInfo().elapsedDistance, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 140, Gfx.FONT_MEDIUM, Act.getActivityInfo().totalAscent, Gfx.TEXT_JUSTIFY_LEFT);
         dc.drawText(20, 160, Gfx.FONT_MEDIUM, Sensor.getInfo().speed, Gfx.TEXT_JUSTIFY_LEFT);

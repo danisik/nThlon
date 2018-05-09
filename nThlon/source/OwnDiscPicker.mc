@@ -55,7 +55,7 @@ class OwnDiscDelegate extends Ui.BehaviorDelegate {
     }
     
     function onKey(key) {
-        if (key.getKey() == Ui.KEY_ENTER) {
+        if (key.getKey() == Ui.KEY_ENTER && ownDiscPicker.order > 0) {
         	Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
         }
     }

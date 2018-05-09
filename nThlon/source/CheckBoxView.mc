@@ -136,15 +136,15 @@ class CheckBoxList {
         	case "beh":
         		options.put(slideSymbol, initY + 4 * (dims[1] + offset));
         		list.add(new Checkbox(options));
-        		labels = ["Beh", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
+        		labels = ["Cas", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
         		break;
         	case "kolo":
         		options.put(slideSymbol, initY + 4 * (dims[1] + offset));
         		list.add(new Checkbox(options));
-        		labels = ["Beh", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
+        		labels = ["Cas", "Vzdalenost", "Nastoupano", "Rychlost", "Tep"];
         		break;
         	case "plavani":
-        		labels = ["Beh", "Vzdalenost", "Rychlost", "Tep"];
+        		labels = ["Cas", "Vzdalenost", "Rychlost", "Tep"];
         		break;
         }
         
@@ -183,13 +183,14 @@ class CheckBoxList {
         	list[3] = new Checkbox(options);
         }*/
         
-        for (var i = 0; i < list.size(); i += 1) {
+        /*for (var i = 0; i < list.size(); i += 1) {
         	Sys.println(i);
         	Sys.println(App.getApp().getProperty( AppData.behProperties[0]));
         	if (App.getApp().getProperty( AppData.dict[AppData.chosenDiscipline][i])) {//AppData.behProperties[i])) {
         		list[i].setState(:stateSelected);
+        		list[i].reset(:stateSelected);
         	}
-        }
+        }*/
         
     }
 
@@ -224,12 +225,24 @@ class CheckBoxView extends Ui.View {
         View.initialize();
 
         currentView = self;
+        Ui.requestUpdate();
     }
 
     function onLayout(dc) {
         checkBoxes = new CheckBoxList(dc);
         setLayout(checkBoxes.getList());
         AppData.checkBoxes = checkBoxes.getList();
+        
+        for (var i = 0; i < AppData.checkBoxes.size(); i += 1) {
+        	//Sys.println(i);
+        	//Sys.println(App.getApp().getProperty( AppData.behProperties[0]));
+        	if (App.getApp().getProperty( AppData.dict[AppData.chosenDiscipline][i])) {//AppData.behProperties[i])) {
+        		AppData.checkBoxes[i].setState(:stateSelected);
+        		//list[i].reset(:stateSelected);
+        	}
+        }
+        
+        Ui.requestUpdate();
     }
 
     function onUpdate(dc) {

@@ -22,10 +22,9 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
 	function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
         	//var app = Application.getApp();
-        	var options = ["Beh", "Kolo", "Plavani", "Depo"];
+        	var options = [DISCIPLINE_RUNNING, DISCIPLINE_CYCLING, DISCIPLINE_SWIMMING, DISCIPLINE_DEPO];
         	var picker = new OwnDiscPicker(options);
         	var menu = new Rez.Menus.MainMenu();
-        	
         	//Ui.pushView(menu, new nThlonMenuDelegate(), Ui.SLIDE_UP);
         	//Ui.popView(Ui.SLIDE_UP);
         	Ui.switchToView(picker, new OwnDiscDelegate(picker), Ui.SLIDE_UP);

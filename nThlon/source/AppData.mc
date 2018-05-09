@@ -1,4 +1,14 @@
 /** Modul pro ulozeni dat se kterymi aplikace pracuje */
+const DISCIPLINE_RUNNING = "Beh";
+const DISCIPLINE_CYCLING = "Kolo";
+const DISCIPLINE_SWIMMING = "Plavani";
+const DISCIPLINE_DEPO = "Depo";
+
+enum {
+	JEDNOTKA,
+	HODNOTA
+}
+	
 module AppData {
 
 	var actualDiscipline = 0;
@@ -17,9 +27,10 @@ module AppData {
 	var behProperties = ["BehCas", "BehVzd", "BehNast", "BehRych", "BehTep", "BehLimH", "BehLimS"];
 	var kolProperties = ["KolCas", "KolVzd", "KolNast", "KolRych", "KolTep", "KolLimH", "KolLimS"];
 	var plavProperties = ["PlaCas", "PlaVzd", "PlaRych", "PlaTep", "PlaLimH", "PlaLimS"];
+	var depoProperties = [];
 	
 	
-	var dict = {"beh"=>behProperties, "kolo"=>kolProperties, "plavani"=>plavProperties};
+	var dict = {"beh"=>behProperties, "kolo"=>kolProperties, "plavani"=>plavProperties, "depo"=>depoProperties};
 	
 	/*var heartRate = null;
 	var speed = 0;
@@ -31,5 +42,6 @@ module AppData {
 	var avgHrt = 0;
     var elpDist = 0;
     var elpTime = 0;*/
+    
 	
 }
