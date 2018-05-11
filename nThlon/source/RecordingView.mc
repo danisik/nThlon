@@ -100,6 +100,9 @@ class RecordingView extends Ui.View {
     function heartrate(info) {
     	Functions.hr = info.heartRate;
     	var actualVibration = Sys.getTimer();
+    	if (AppData.dict[AppData.chosenSport].size() == 0) {
+    		return true;
+    	}
     	var horniMez = App.getApp().getProperty(AppData.dict[AppData.chosenSport][AppData.dict[AppData.chosenSport].size() - 2]);
         var spodniMez = App.getApp().getProperty(AppData.dict[AppData.chosenSport][AppData.dict[AppData.chosenSport].size() - 1]);
     	
