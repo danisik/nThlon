@@ -93,6 +93,7 @@ class Discipline {
 		}
 		
 		arr.add(1); // pro average hodnotu
+		//posun.add(Gfx.FONT_MEDIUM);
 	}
 	
 	function startDiscipline() {

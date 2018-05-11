@@ -425,7 +425,7 @@ module Functions {
     		y += fontShift;
     		bigger++;
     	}
-		if (App.getApp().getProperty(properties[4])) {
+		if (App.getApp().getProperty(properties[3])) {
 			activityInformations = Functions.convertHeartRate(hr);
 			averageActivityInformations = Functions.convertHeartRate(activity.averageHeartRate);
 			hodnota = activityInformations[HODNOTA];
@@ -442,12 +442,14 @@ module Functions {
     		y += fontShift;
     		bigger++;
     	}
-    	if (App.getApp().getProperty(properties[3])) {
+    	if (App.getApp().getProperty(properties[2])) {
     		activityInformations = Functions.convertSpeedSwimming(activity.currentSpeed);
 			averageActivityInformations = Functions.convertSpeedSwimming(activity.averageSpeed);
 			hodnota = activityInformations[HODNOTA];
 			averageHodnota = averageActivityInformations[HODNOTA];
 			jednotka = activityInformations[JEDNOTKA];
+			Sys.println(posun.size());
+			Sys.println(bigger - 1);
 			font = posun[bigger - 1];
 			offset = 25 * arr[bigger - 1];
 			averageOffset = 25 * arr[bigger];
