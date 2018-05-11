@@ -35,6 +35,7 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
         	chDel.list = chView.checkBoxes;
         	Ui.pushView(chView, chDel, Ui.SLIDE_UP);
         }
+        Sys.println(AppData.chosenDiscipline);
     }
     
     function onBack() {

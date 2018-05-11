@@ -16,14 +16,15 @@ module Functions {
 	var hr = 0;
 	var pos = 0;
 	
-
+	var error = "---";
+	
 	function convertSpeedRunning(speed) {
 		var units = "min/km";
 		if (speed == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (speed == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		var convertedSpeed = 16.67 / speed;
 		
@@ -33,10 +34,10 @@ module Functions {
 	function convertSpeedCycling(speed) {
 		var units = "km/h";
 		if (speed == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (speed == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		var convertedSpeed = speed * 3.6;
 		
@@ -46,10 +47,10 @@ module Functions {
 	function convertSpeedSwimming(speed) {
 		var units = "m:s/100m";
 		if (speed == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (speed == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		var convertedSpeed = 100 / speed;
 		
@@ -69,10 +70,10 @@ module Functions {
 	function convertDistance(distance) {
 		var units = "km";
 		if (distance == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (distance == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		
 		var convertedDist = distance / 1000;
@@ -83,10 +84,10 @@ module Functions {
 	function convertDistanceSwimming(distance) {
 		var units = "m";
 		if (distance == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (distance == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		
 		var convertedDist = distance;
@@ -98,10 +99,10 @@ module Functions {
 	function convertTime(time) {
 		var units = "";
 		if (time == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (time == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		
 		time = time.toNumber();
@@ -128,10 +129,10 @@ module Functions {
 	function convertAscent(ascent) {
 		var units = "m";
 		if (ascent == null) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		if (ascent == 0) {
-			return {0=>units, 1=>(-1.0).format("%.2f")};
+			return {0=>units, 1=>error};
 		}
 		
 		return {0=>units, 1=>ascent.format("%.2f")};

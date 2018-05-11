@@ -28,6 +28,7 @@ class DisciplineMenuDelegate extends Ui.MenuInputDelegate {
             AppData.chosenDiscipline = DISC_SWIMMING;
             
         }
+        Sys.println(AppData.chosenDiscipline);
     }
     
     function onBack() {

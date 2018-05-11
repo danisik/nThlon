@@ -49,6 +49,7 @@ class CheckBoxDelegate extends Ui.BehaviorDelegate {
         			App.getApp().setProperty( AppData.dict[AppData.chosenDiscipline][i], false );
         		}
 			}
+			Ui.popView(Ui.SLIDE_LEFT);
             Sys.println(App.getApp().getProperty( AppData.behProperties[0]));//return pushMenu(Ui.SLIDE_IMMEDIATE);
         }
 

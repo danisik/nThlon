@@ -27,7 +27,7 @@ module AppData {
 	var discovered = [0, 0, 0];
 	
 	var chosenDiscipline = "plavani";
-	var chosenSport = "";
+	var chosenSport = -1;
 	
 	var checkBoxes;
 	

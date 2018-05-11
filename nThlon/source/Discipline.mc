@@ -109,6 +109,8 @@ class Discipline {
            );
            disciplineSession.start();
            startTime = Sys.getTimer();
+           //AppData.actualDiscipline = self.chosenDiscipline;
+           AppData.chosenSport = self.chosenDiscipline;
        	}
        	}
 	}

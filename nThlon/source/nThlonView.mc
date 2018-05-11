@@ -2,6 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.Timer as Timer;
 using Toybox.System as Sys;
+using Toybox.Attention;
 
 enum {
 	DISCIPLINE_BEH,

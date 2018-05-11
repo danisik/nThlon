@@ -8,6 +8,7 @@ using Toybox.Position as Pos;
 using Toybox.System as Sys;
 using Toybox.Timer as Timer;
 using Toybox.Sensor as Sensor;
+using Toybox.Attention as Attention;
 
 /** Slouzi pro rekaci na tlacitka atp. v RecordingView */
 class RecordingViewDelegate extends Ui.BehaviorDelegate {
@@ -74,9 +75,11 @@ class RecordingView extends Ui.View {
 	var activityInfo = Act.getActivityInfo();
 	var test = [];
 	var test1 = {0=>activityInfo.currentHeartRate};
+	var lastVibration;
 
     function initialize() {
         View.initialize();
+        lastVibration = Sys.getTimer();
     }
 
 	function recordingtimercallback()
@@ -96,6 +99,30 @@ class RecordingView extends Ui.View {
     
     function heartrate(info) {
     	Functions.hr = info.heartRate;
+    	var actualVibration = Sys.getTimer();
+    	var horniMez = App.getApp().getProperty(AppData.dict[AppData.chosenSport][AppData.dict[AppData.chosenSport].size() - 2]);
+        var spodniMez = App.getApp().getProperty(AppData.dict[AppData.chosenSport][AppData.dict[AppData.chosenSport].size() - 1]);
+    	
+    	Sys.println(AppData.actualDiscipline);
+    	if (info.heartRate == null) {
+    		return true;
+    	}
+    	
+    	if ((actualVibration - lastVibration) > 10000 && (info.heartRate < spodniMez.toNumber() || info.heartRate > horniMez.toNumber())) {
+			if( Attention has :vibrate) {
+            	var vibrateData = [ new Attention.VibeProfile(  25, 100 ),
+                    new Attention.VibeProfile(  50, 100 ),
+                    new Attention.VibeProfile(  75, 100 ),
+                    new Attention.VibeProfile( 100, 100 ),
+                    new Attention.VibeProfile(  75, 100 ),
+                    new Attention.VibeProfile(  50, 100 ),
+                    new Attention.VibeProfile(  25, 100 ) ];
+
+            	Attention.vibrate( vibrateData );
+            	lastVibration = actualVibration;
+        	}
+        	
+		}
     }
 
     // Load your resources here
@@ -215,6 +242,8 @@ class RecordingView extends Ui.View {
         	dc.drawText(50, 6, Gfx.FONT_MEDIUM, Functions.convertTime(Sys.getTimer() - AppData.disciplines[0].startTime)[1], Gfx.TEXT_JUSTIFY_LEFT);
         	actualDis.drawInfo(dc);
         }
+        
+		
         
         	//actualDis.drawInfo(dc);
         /*for (var i = 0; i < test.size(); i += 1) {
