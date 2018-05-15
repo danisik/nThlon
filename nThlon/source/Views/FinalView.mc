@@ -9,34 +9,6 @@ using Toybox.System as Sys;
 using Toybox.Timer as Timer;
 using Toybox.Sensor as Sensor;
 
-/** Slouzi pro rekaci na tlacitka atp. v RecordingView */
-class FinalViewDelegate extends Ui.BehaviorDelegate {
-	var finalView;
-
-	function initialize(finalView) {
-        BehaviorDelegate.initialize();
-        self.finalView = finalView;
-    }
-    
-    function onKey(key) {
-        if (key.getKey() == Ui.KEY_ENTER) {
-        	Ui.popView(Ui.SLIDE_RIGHT);
-        }
-        
-    }
-    
-    function onSwipe(swipeEvent) {
-    	if (AppData.disciplines.size() > 5) {
-    		if (swipeEvent.getDirection() == Ui.SWIPE_LEFT) {
-    			finalView.page = 1;
-    		}
-    		else if (swipeEvent.getDirection() == Ui.SWIPE_RIGHT) {
-    			finalView.page = 0;
-    		}
-    	}
-    }
-}
-
 /** View ktere slouzi pro zobrazeni vsech dulezitych hodnot behem provadeni discpliny (napr. heartrate, rychlost atp.) */
 class FinalView extends Ui.View {
 	var page;

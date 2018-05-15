@@ -35,7 +35,6 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
         	chDel.list = chView.checkBoxes;
         	Ui.pushView(chView, chDel, Ui.SLIDE_UP);
         }
-        Sys.println(AppData.chosenDiscipline);
     }
     
     function onBack() {
@@ -44,7 +43,6 @@ class nThlonMenuDelegate extends Ui.MenuInputDelegate {
     
     function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
-        	Sys.println("ZMACKNUTO");
         }
     }
 

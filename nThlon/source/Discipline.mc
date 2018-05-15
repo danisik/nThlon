@@ -9,13 +9,13 @@ using Toybox.System as Sys;
 using Toybox.Timer as Timer;
 using Toybox.Sensor as Sensor;
 
-/** Trida reprezentujici jednu disciplinu */
+/** Trida reprezentujici disciplinu */
 class Discipline {
 	static var stageNames = [
-		"Beh", 
-		"Kolo", 
-		"Plavani", 
-		"Depo" ];
+		Ui.loadResource(Rez.Strings.disciplineRunning), 
+		Ui.loadResource(Rez.Strings.disciplineCycling), 
+		Ui.loadResource(Rez.Strings.disciplineSwimming), 
+		Ui.loadResource(Rez.Strings.disciplineDepo) ];
 		
 	static var stageSports = [ 
 		Rec.SPORT_RUNNING,
@@ -35,32 +35,30 @@ class Discipline {
 		Rez.Drawables.SwimIcon,
 		Rez.Drawables.TransIcon ];
 
-	var lastVibration = 0;
+	/** cas posledni vibrace - hr */
+	var lastVibration;
 	var chosenSport;
 	var chosenDiscipline;
 	
-	var startTime = 0;
-	var endTime = 0;
-	var arr = [];
-	var posun = [];
+	/** cas kdy byla disciplina spustena */
+	var startTime;
+	/** cas kdy byla disciplina zastavena */
+	var endTime;
+	/** slouzi k posunu nezvetsenych informaci */
+	var arr;
+	/** uklada font pro danou informaci */
+	var posun;
 	
 	var disciplineSession;
 	
 	
 	function initialize(sport) {
-		/*if (sport.equals("Beh")) {
-			chosenSport = 0;
-		}
-		else if (sport.equals("Kolo")) {
-			chosenSport = 1;
-		}
-		else if (sport.equals("Plavani")) {
-			chosenSport = 2;
-		}
-		else {
-			chosenSport = 3;
-		}*/
-		
+		self.arr = [];
+		self.posun = [];
+		self.startTime = 0;
+		self.endTime = 0;
+		self.lastVibration = 0;
+	
 		switch (sport) {
 			case DISCIPLINE_RUNNING:
 				chosenSport = 0;
@@ -87,48 +85,45 @@ class Discipline {
 				posun.add(Gfx.FONT_MEDIUM);
 			}
 		}
+		
 		if (arr.size() > 0) {
 			arr[0] = 0;
 			posun[0] = Gfx.FONT_SYSTEM_NUMBER_MEDIUM;
 		}
 		
-		arr.add(1); // pro average hodnotu
-		//posun.add(Gfx.FONT_MEDIUM);
+		arr.add(1); // kvuli prumernym hodnotam
 	}
 	
+	/** pusti disciplinu */
 	function startDiscipline() {
 		if (Toybox has :ActivityRecording) {
-		Sys.println("ZACINAM");
-       	if ((disciplineSession == null) || (disciplineSession.isRecording() == false)) {
-       	Sys.println("SESNA");
-           disciplineSession = ActivityRecording.createSession(
-                {
-                 :name=>stageNames[chosenSport],
-                 :sport=>stageSports[chosenSport],
-                 :subSport=>stageSubSports[chosenSport]
-                }
-           );
-           disciplineSession.start();
-           startTime = Sys.getTimer();
-           //AppData.actualDiscipline = self.chosenDiscipline;
-           AppData.chosenSport = self.chosenDiscipline;
-       	}
+       		if ((disciplineSession == null) || (disciplineSession.isRecording() == false)) {
+           		disciplineSession = ActivityRecording.createSession(
+               		 {
+                		:name=>stageNames[chosenSport],
+                 		:sport=>stageSports[chosenSport],
+                 		:subSport=>stageSubSports[chosenSport]
+                	 }
+           		);
+           		disciplineSession.start();
+           		startTime = Sys.getTimer();
+           		AppData.chosenSport = self.chosenDiscipline;
+       		}
        	}
 	}
 	
+	/** zastavi aktualni disciplinu */
 	function endDiscipline() {
 		if ((disciplineSession != null) && disciplineSession.isRecording()) {
            disciplineSession.stop();
-           //disciplineSession.discard();
            disciplineSession = null;
            AppData.biggerInfo = 1;
            endTime = Sys.getTimer();
-           //session.ge
        	}
 	}
 	
+	/** slouzi pro vykresleni hodnot v discipline - pouziva k tomu metody z modulu Functions */
 	function drawInfo(dc) {
-		//var chosenDiscipline = AppData.disciplines[AppData.actualDiscipline].chosenDiscipline;
 		switch (chosenDiscipline) {
 			case DISC_RUNNING:
 				Functions.drawInfoBeh(dc);

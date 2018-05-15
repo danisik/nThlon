@@ -13,11 +13,15 @@ module Functions {
 	var infoX = 1;
 	var infoY = 40;
 	
+	/** heart rate */
 	var hr = 0;
+	/** position */
 	var pos = 0;
 	
+	/** pro chybny vypis hodnot */
 	var error = "---";
 	
+	/** prevede rychlost m/s na min/km */
 	function convertSpeedRunning(speed) {
 		var units = "min/km";
 		if (speed == null) {
@@ -31,6 +35,7 @@ module Functions {
 		return 	{0=>units, 1=>convertedSpeed.format("%.2f")};
 	}
 	
+	/** prevede m/s na km/h */
 	function convertSpeedCycling(speed) {
 		var units = "km/h";
 		if (speed == null) {
@@ -44,6 +49,7 @@ module Functions {
 		return 	{0=>units, 1=>convertedSpeed.format("%.2f")};
 	}
 	
+	/** prevede m/s na m:s/100m */
 	function convertSpeedSwimming(speed) {
 		var units = "m:s/100m";
 		if (speed == null) {
@@ -67,6 +73,7 @@ module Functions {
 		return 	{0=>units, 1=>myTime};
 	}
 	
+	/** prevede m na km */
 	function convertDistance(distance) {
 		var units = "km";
 		if (distance == null) {
@@ -81,6 +88,7 @@ module Functions {
 		return {0=>units, 1=>convertedDist.format("%.2f")};
 	}
 	
+	/** m na m - nejedna se tedy o prevod, jen kontrolu */
 	function convertDistanceSwimming(distance) {
 		var units = "m";
 		if (distance == null) {
@@ -91,11 +99,11 @@ module Functions {
 		}
 		
 		var convertedDist = distance;
-		//convertedDist.format("%.2f");
 		
 		return {0=>units, 1=>convertedDist};
 	}
 	
+	/** prevede ms na h:m:s */
 	function convertTime(time) {
 		var units = "";
 		if (time == null) {
@@ -126,6 +134,7 @@ module Functions {
 		return {0=>units, 1=>myTime};
 	}
 	
+	/** nastoupane metry neprevadi, jedna se jen o kontrolu */
 	function convertAscent(ascent) {
 		var units = "m";
 		if (ascent == null) {
@@ -138,6 +147,7 @@ module Functions {
 		return {0=>units, 1=>ascent.format("%.2f")};
 	}
 	
+	/** neprevadi, jedna se jen o kontrolu */
 	function convertHeartRate(heartRate) {
 		var units = "bpm";
 		
@@ -162,6 +172,8 @@ module Functions {
 	function checkLimitSwimming() {
 		
 	}
+	
+	/** slouzi pro vykresleni hodnot behu */
 	function drawInfoBeh(dc) {
 		//Sys.println(Gfx.getFontHeight(Gfx.FONT_MEDIUM));
 		var properties = AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline];
@@ -271,6 +283,7 @@ module Functions {
     	
 	}
 	
+	/** slouzi pro vykresleni hodnot kola */
 	function drawInfoKolo(dc) {
 		var properties = AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline];
 		
@@ -378,6 +391,7 @@ module Functions {
     	}
 	}
 	
+	/** slouzi pro vykresleni hodnot plavani */
 	function drawInfoPlavani(dc) {
 		var properties = AppData.dict[AppData.disciplines[AppData.actualDiscipline].chosenDiscipline];
 		
@@ -421,7 +435,6 @@ module Functions {
 			offset = 25 * arr[bigger - 1];
 			
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
-    		//dc.drawText(x, y + 25 * arr[bigger - 1], posun[bigger - 1], Functions.convertSpeedRunning(Act.getActivityInfo().currentSpeed)[1].format("%.2f"), Gfx.TEXT_JUSTIFY_LEFT);
     		y += fontShift;
     		bigger++;
     	}
@@ -475,6 +488,7 @@ module Functions {
     	}
 	}
 	
+	/** slouzi pro vykresleni hodnot v depu */
 	function drawInfoDepo(dc) {
 		var discipline = AppData.disciplines[AppData.actualDiscipline];
 		dc.drawBitmap(1, 1, Ui.loadResource(discipline.stageIcons[3]));
@@ -482,9 +496,10 @@ module Functions {
 		var x = 1;
 		var y = 40;
 		
-		dc.drawText(x, y,  Gfx.FONT_SYSTEM_NUMBER_MEDIUM, Functions.convertTime(Act.getActivityInfo().elapsedTime)[1], Gfx.TEXT_JUSTIFY_LEFT);
+		dc.drawText(x, y,  Gfx.FONT_SYSTEM_NUMBER_MEDIUM, Functions.convertTime(Act.getActivityInfo().elapsedTime)[HODNOTA], Gfx.TEXT_JUSTIFY_LEFT);
 	}
 	
+	/** vraci typ fontu */
 	function getFont(step) {
 		if (AppData.biggerInfo == step) {
 			return Gfx.FONT_SYSTEM_NUMBER_MEDIUM;

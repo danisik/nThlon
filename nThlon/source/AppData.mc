@@ -15,16 +15,17 @@ enum {
 	DISC_SWIMMING,
 	DISC_DEPO
 }
-	
+
+/** Modul ktery obsahuje dulezita data aplikace */	
 module AppData {
 
 	var actualDiscipline = 0;
 	var biggerInfo = 1;
 	
 	var disciplines = {};
-	var disciplinesOrder = 0;
+	//var disciplinesOrder = 0;
 	
-	var discovered = [0, 0, 0];
+	//var discovered = [0, 0, 0];
 	
 	var chosenDiscipline = "plavani";
 	var chosenSport = -1;
@@ -36,19 +37,6 @@ module AppData {
 	var plavProperties = ["PlaCas", "PlaVzd", "PlaRych", "PlaTep", "PlaLimH", "PlaLimS"];
 	var depoProperties = [];
 	
-	
+	/** slovnik kterej uchovava pro kazdou disciplinu jeji properties */
 	var dict = {DISC_RUNNING=>behProperties, DISC_CYCLING=>kolProperties, DISC_SWIMMING=>plavProperties, DISC_DEPO=>depoProperties};
-	
-	/*var heartRate = null;
-	var speed = 0;
-	
-	var currEl = 0.0;
-	var beforeEl = 0;
-	var ascent = 0.0;
-	var avgSpeed = 0;
-	var avgHrt = 0;
-    var elpDist = 0;
-    var elpTime = 0;*/
-    
-	
 }
