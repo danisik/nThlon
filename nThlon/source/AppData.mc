@@ -3,6 +3,7 @@ const DISCIPLINE_RUNNING = "Beh";
 const DISCIPLINE_CYCLING = "Kolo";
 const DISCIPLINE_SWIMMING = "Plavani";
 const DISCIPLINE_DEPO = "Depo";
+const SPORT_NOT_CHOSEN_YET = -1;
 
 enum {
 	JEDNOTKA,
@@ -27,11 +28,14 @@ module AppData {
 	
 	//var discovered = [0, 0, 0];
 	
-	var chosenDiscipline = "plavani";
-	var chosenSport = -1;
+	/** aktualne vybrana disciplina v menu, pro kterou uzivatel bude nastavovat properties */
+	var chosenDiscipline = DISC_RUNNING;
+	/** pri recordingu sport, ktery momentalne bezi */
+	var chosenSport = SPORT_NOT_CHOSEN_YET;
 	
 	var checkBoxes;
 	
+	/** Mozno pridat nove informace, limity ale musi byt na poslednich pozicich v polich */
 	var behProperties = ["BehCas", "BehVzd", "BehNast", "BehRych", "BehTep", "BehLimH", "BehLimS"];
 	var kolProperties = ["KolCas", "KolVzd", "KolNast", "KolRych", "KolTep", "KolLimH", "KolLimS"];
 	var plavProperties = ["PlaCas", "PlaVzd", "PlaRych", "PlaTep", "PlaLimH", "PlaLimS"];

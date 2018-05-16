@@ -41,16 +41,17 @@ class CheckBoxDelegate extends Ui.BehaviorDelegate {
     function onKey(evt) {
         var key = evt.getKey();
 
+		var properties = AppData.dict[AppData.chosenDiscipline];
         if (key == KEY_ENTER) {
         	for( var i = 0; i < AppData.checkBoxes.size(); i += 1 ) {
         		if (AppData.checkBoxes[i].getState() == :stateSelected) {
-        			App.getApp().setProperty( AppData.dict[AppData.chosenDiscipline][i], true );
+        			App.getApp().setProperty( properties[i], true );
         		} else {
-        			App.getApp().setProperty( AppData.dict[AppData.chosenDiscipline][i], false );
+        			App.getApp().setProperty( properties[i], false );
         		}
 			}
 			Ui.popView(Ui.SLIDE_LEFT);
-            Sys.println(App.getApp().getProperty( AppData.behProperties[0]));//return pushMenu(Ui.SLIDE_IMMEDIATE);
+            //Sys.println(App.getApp().getProperty( AppData.behProperties[0]));//return pushMenu(Ui.SLIDE_IMMEDIATE);
         }
 
         return false;
@@ -58,7 +59,7 @@ class CheckBoxDelegate extends Ui.BehaviorDelegate {
     
     function onBack() {
     	Ui.popView(Ui.SLIDE_IMMEDIATE);
-        Sys.println("ZMACKNUTO1");
+        //Sys.println("ZMACKNUTO1");
         return true;
     }
 }

@@ -66,7 +66,7 @@ class OwnDiscPicker extends Ui.View {
         notOkButt.draw(dc);
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        dc.drawText(dc.getWidth() / 2, 2, Gfx.FONT_MEDIUM, (order + 1) + ". disciplina", Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2, 2, Gfx.FONT_MEDIUM, (order + 1) + ". " + Ui.loadResource(Rez.Strings.disciplineString), Gfx.TEXT_JUSTIFY_CENTER);
         dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 14, Gfx.FONT_MEDIUM, options[chosenOne], Gfx.TEXT_JUSTIFY_CENTER);
     }
 

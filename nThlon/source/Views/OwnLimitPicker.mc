@@ -7,9 +7,11 @@ using Toybox.System as Sys;
 /** Hlavni view */
 class OwnLimitPicker extends Ui.View {
 
+	/** moznosti vyberu - tedy cisla */
 	var options;
+	/** vybrane cislo */
 	var chosenOne = 0;
-	var order = 0;
+	//var order = 0;
 	var limit = "";
 	var type = 0; // 0 = horni, 1 = spodni
 	
@@ -17,10 +19,12 @@ class OwnLimitPicker extends Ui.View {
         View.initialize();
         self.options = options;
         self.type = type;
+        var properties = AppData.dict[AppData.chosenDiscipline];
+    	var size = properties.size();
         if (type == 0) {
-        	limit = App.getApp().getProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 2]);
+        	limit = App.getApp().getProperty(properties[size - 2]);
         } else if (type == 1) {
-        	limit = App.getApp().getProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1]);
+        	limit = App.getApp().getProperty(properties[size - 1]);
         }
     }
 

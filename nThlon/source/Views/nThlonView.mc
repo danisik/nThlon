@@ -4,11 +4,7 @@ using Toybox.Timer as Timer;
 using Toybox.System as Sys;
 using Toybox.Attention;
 
-enum {
-	DISCIPLINE_BEH,
-	DISCIPLINE_KOLO,
-	DISCIPLINE_PLAVANI
-}
+
 
 /** Pohled ktery se nacte pri spusteni aplikace, k osetreni vstupu slouzi: 
  *	

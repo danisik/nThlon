@@ -61,19 +61,19 @@ class Discipline {
 	
 		switch (sport) {
 			case DISCIPLINE_RUNNING:
-				chosenSport = 0;
+				chosenSport = DISC_RUNNING;
 				chosenDiscipline = DISC_RUNNING;
 				break;
 			case DISCIPLINE_CYCLING:
-				chosenSport = 1;
+				chosenSport = DISC_CYCLING;
 				chosenDiscipline = DISC_CYCLING;
 				break;
 			case DISCIPLINE_SWIMMING:
-				chosenSport = 2;
+				chosenSport = DISC_SWIMMING;
 				chosenDiscipline = DISC_SWIMMING;
 				break;
 			default:
-				chosenSport = 3;
+				chosenSport = DISC_DEPO;
 				chosenDiscipline = DISC_DEPO;
 				break;
 		}

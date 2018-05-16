@@ -152,10 +152,10 @@ module Functions {
 		var units = "bpm";
 		
 		if (heartRate == null) {
-			return {0=>units, 1=>-1};
+			return {0=>units, 1=>error};
 		}
 		if (heartRate == 0) {
-			return {0=>units, 1=>-1};
+			return {0=>units, 1=>error};
 		}
 		
 		return {0=>units, 1=>heartRate};

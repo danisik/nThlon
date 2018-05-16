@@ -52,14 +52,17 @@ class OwnLimitDelegate extends Ui.BehaviorDelegate {
     function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
         	if(ownLimitPicker.limit.length() != 0) {
-            	var horniMez = App.getApp().getProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 2]);
-            	var spodniMez = App.getApp().getProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1]);
+        		var properties = AppData.dict[AppData.chosenDiscipline];
+    			var size = properties.size();
+    			var horniMez = App.getApp().getProperty(properties[size - 2]);
+       			var spodniMez = App.getApp().getProperty(properties[size - 1]);
+          
             	if (ownLimitPicker.type == 0 && (ownLimitPicker.limit.toNumber() > spodniMez.toNumber())) {
-            		App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 2], ownLimitPicker.limit);
+            		App.getApp().setProperty(properties[size - 2], ownLimitPicker.limit);
             		Ui.popView(Ui.SLIDE_IMMEDIATE);
             	}
             	else if (ownLimitPicker.type == 1 && (ownLimitPicker.limit.toNumber() < horniMez.toNumber())) {
-            		App.getApp().setProperty(AppData.dict[AppData.chosenDiscipline][AppData.dict[AppData.chosenDiscipline].size() - 1], ownLimitPicker.limit);
+            		App.getApp().setProperty(properties[size - 1], ownLimitPicker.limit);
             		Ui.popView(Ui.SLIDE_IMMEDIATE);
             	}
             }
