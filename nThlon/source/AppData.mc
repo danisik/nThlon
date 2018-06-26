@@ -16,7 +16,6 @@ enum {
 	DISC_SWIMMING,
 	DISC_DEPO
 }
-
 /** Modul ktery obsahuje dulezita data aplikace */	
 module AppData {
 
