@@ -1,6 +1,7 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="DefaultBackButton" filename="button.png" dithering="none" />
+    <bitmap id="OldDiscText" filename="oldDiscText.png" dithering="none" />
     <!--<bitmap id="PressedBackButton" filename="button1.png" dithering="none" />-->
     <bitmap id="checkBoxDefault" filename="checkbox_default.png" dithering="none" />
     <bitmap id="checkBoxSelected" filename="checkbox_selected.png" dithering="none" />

@@ -49,6 +49,8 @@ class Discipline {
 	/** uklada font pro danou informaci */
 	var posun;
 	
+	var name = "";
+	
 	var disciplineSession;
 	
 	
@@ -63,18 +65,22 @@ class Discipline {
 			case DISCIPLINE_RUNNING:
 				chosenSport = DISC_RUNNING;
 				chosenDiscipline = DISC_RUNNING;
+				name = "DISCIPLINE_RUNNING";
 				break;
 			case DISCIPLINE_CYCLING:
 				chosenSport = DISC_CYCLING;
 				chosenDiscipline = DISC_CYCLING;
+				name = "DISCIPLINE_CYCLING";
 				break;
 			case DISCIPLINE_SWIMMING:
 				chosenSport = DISC_SWIMMING;
 				chosenDiscipline = DISC_SWIMMING;
+				name = "DISCIPLINE_SWIMMING";
 				break;
 			default:
 				chosenSport = DISC_DEPO;
 				chosenDiscipline = DISC_DEPO;
+				name = "DISCIPLINE_DEPO";
 				break;
 		}
 		
