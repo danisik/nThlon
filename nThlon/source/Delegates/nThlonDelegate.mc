@@ -35,18 +35,8 @@ class nThlonDelegate extends Ui.BehaviorDelegate {
        			Ui.switchToView(picker, new OwnDiscDelegate(picker), Ui.SLIDE_UP);
         	}
         	else {
-        		Ui.switchToView(oldDiscView, new OldDiscViewDelegate(), Ui.SLIDE_UP);
+        		Ui.switchToView(oldDiscView, new OldDiscViewDelegate(oldDiscView), Ui.SLIDE_UP);
         	}
-        	
-        	//Ui.pushView(oldDiscView, new OldDiscViewDelegate(), Ui.SLIDE_UP);
-        /*
-        	var stages = Discipline.stageNames;
-        	// moznosti, ktere bude mozne vybrat v OwnDiscPickeru (resp. popisky) 
-        	var options = [stages[DISC_RUNNING], stages[DISC_CYCLING], stages[DISC_SWIMMING], stages[DISC_DEPO]];
-        	var picker = new OwnDiscPicker(options);
-        	var menu = new Rez.Menus.MainMenu();
-        	Ui.switchToView(picker, new OwnDiscDelegate(picker), Ui.SLIDE_UP);
-        */
 			return true;
         }
         return false;

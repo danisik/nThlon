@@ -58,9 +58,7 @@ class OwnDiscDelegate extends Ui.BehaviorDelegate {
     
     function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER && ownDiscPicker.order > 0) {
-        	Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
-        	
-        	var disciplinesString = "discipline";
+                	var disciplinesString = "discipline";
         	App.getApp().setProperty(disciplinesString, "");
         	var lastNumber = 0;
         	
@@ -70,6 +68,8 @@ class OwnDiscDelegate extends Ui.BehaviorDelegate {
         	}
         	var sizeOfListDisc = ownDiscPicker.order;
         	App.getApp().setProperty("sizeOfListDisc", sizeOfListDisc);
+        	
+        	Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
         }
     }
 }

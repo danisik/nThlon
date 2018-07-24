@@ -21,7 +21,8 @@ class RecordingViewDelegate extends Ui.BehaviorDelegate {
         	
         	AppData.disciplines[AppData.actualDiscipline].endDiscipline();
         	AppData.actualDiscipline += 1;
-        	if (AppData.disciplines.size() > AppData.actualDiscipline) {
+        	var sizeOfListDisc = App.getApp().getProperty("sizeOfListDisc");
+        	if (sizeOfListDisc > AppData.actualDiscipline) {
         		AppData.disciplines[AppData.actualDiscipline].startDiscipline();
         	}
         	else {
