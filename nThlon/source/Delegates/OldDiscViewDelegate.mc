@@ -1,15 +1,30 @@
-using Toybox.WatchUi as Ui;
 using Toybox.Application as App;
-using Toybox.System as Sys;
-using Toybox.Application;
-using Toybox.ActivityRecording;
-using Toybox.Sensor;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.Lang as Lang;
 using Toybox.Activity as Act;
+using Toybox.ActivityRecording as Rec;
+using Toybox.Position as Pos;
+using Toybox.System as Sys;
+using Toybox.Timer as Timer;
+using Toybox.Sensor as Sensor;
 
 class OldDiscViewDelegate extends Ui.BehaviorDelegate {
+    var oldDiscView;
     
-    function initialize() {
+    function initialize(oldDiscView) {
         BehaviorDelegate.initialize();
+        self.oldDiscView = oldDiscView;
+        
+        var disciplinesString = "discipline";
+        var sizeOfListDisc = App.getApp().getProperty("sizeOfListDisc");
+        var lastString = "";
+        
+        for (var i = 0; i < sizeOfListDisc; i++) {
+            lastString = disciplinesString + "" + i;
+            var disciplineName = App.getApp().getProperty(lastString);
+            AppData.disciplines[i] = new Discipline(disciplineName); 
+        }
     }
 
     function onMenu() {
@@ -19,6 +34,7 @@ class OldDiscViewDelegate extends Ui.BehaviorDelegate {
 	function onKey(key) {
         if (key.getKey() == Ui.KEY_ENTER) {
             //ukladani objektu vytazenych z OwnDiscPickeru ulozenych do promeny disciplineX, kde X je cislo aktualni discipliny, pocet disciplin je ulozen v promenne sizeOfListDisc
+            /*
             var disciplinesString = "discipline";
             var sizeOfListDisc = App.getApp().getProperty("sizeOfListDisc");
             var lastString = "";
@@ -28,7 +44,7 @@ class OldDiscViewDelegate extends Ui.BehaviorDelegate {
                 var disciplineName = App.getApp().getProperty(lastString);
                 AppData.disciplines[i] = new Discipline(disciplineName); 
             }
-        
+        	*/
             Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
         }
         
@@ -63,7 +79,14 @@ class OldDiscViewDelegate extends Ui.BehaviorDelegate {
     }
 */    
     function onSwipe(swipeEvent) {
-        Sys.println(swipeEvent.getDirection());
+    	if (AppData.disciplines.size() > 5) {
+    		if (swipeEvent.getDirection() == Ui.SWIPE_LEFT) {
+    			oldDiscView.page = 1;
+    		}
+    		else if (swipeEvent.getDirection() == Ui.SWIPE_RIGHT) {
+    			oldDiscView.page = 0;
+    		}
+    	}
     }
     
 }
