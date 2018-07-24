@@ -25,14 +25,24 @@ module Functions {
 	function convertSpeedRunning(speed) {
 		var units = "min/km";
 		if (speed == null) {
-			return {0=>units, 1=>error};
+			return {0=>units, 1=>error, 2=>error};
 		}
 		if (speed == 0) {
-			return {0=>units, 1=>error};
+			return {0=>units, 1=>error, 2=>error};
 		}
-		var convertedSpeed = 16.67 / speed;
+		var tmpConvertedSpeed = 16.67 / speed;
+		var convertedSpeed = tmpConvertedSpeed.toNumber();
+
+		var tmpResidue = (tmpConvertedSpeed - convertedSpeed) * 100;
+
+		var residue = tmpResidue.toLong() % 60;
 		
-		return 	{0=>units, 1=>convertedSpeed.format("%.2f")};
+		var addition = tmpResidue / 60;
+
+		convertedSpeed += addition.toNumber();
+		//convertedSpeed.toNumber()
+		
+		return 	{0=>units, 1=>convertedSpeed, 2=>residue.format("%02d")};
 	}
 	
 	/** prevede m/s na km/h */
@@ -194,6 +204,7 @@ module Functions {
 		
 		var activityInformations;
 		var hodnota;
+		var hodnotaFloat;
 		var jednotka;
 		
 		var normalFont = Gfx.FONT_MEDIUM;
@@ -245,11 +256,12 @@ module Functions {
 			hodnota = activityInformations[HODNOTA];
 			averageHodnota = averageActivityInformations[HODNOTA];
 			jednotka = activityInformations[JEDNOTKA];
+			hodnotaFloat = activityInformations[2];
 			font = posun[bigger - 1];
 			offset = 25 * arr[bigger - 1];
 			averageOffset = 25 * arr[bigger];
 		
-    		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
+    		dc.drawText(x, y + offset, font, hodnota + ":" + hodnotaFloat, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
     		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
