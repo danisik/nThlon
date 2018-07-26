@@ -1,3 +1,4 @@
+using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.Timer as Timer;
@@ -26,12 +27,14 @@ class OldDiscView extends Ui.View {
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
     
+   		var sizeOfListDisc = App.getApp().getProperty("sizeOfListDisc");
+    	
     	var step;
     	
     	var toPage = 5;
     	
-    	if (AppData.disciplines.size() < 6) {
-    		toPage = AppData.disciplines.size();
+    	if (sizeOfListDisc < 6) {
+    		toPage = sizeOfListDisc;
     	}
     	
         if (page == 0) {
@@ -39,7 +42,7 @@ class OldDiscView extends Ui.View {
         }
         else {
         	step = 5;
-        	toPage = AppData.disciplines.size();
+        	toPage = sizeOfListDisc;
         }
         
         dc.drawText(30, 6, Gfx.FONT_MEDIUM, "DISCIPLINY", Gfx.TEXT_JUSTIFY_LEFT);

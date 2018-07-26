@@ -37,12 +37,14 @@ class FinalView extends Ui.View {
     	
     	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
     
+    	var sizeOfListDisc = App.getApp().getProperty("sizeOfListDisc");
+    
     	var step;
     	
     	var toPage = 5;
     	
-    	if (AppData.disciplines.size() < 6) {
-    		toPage = AppData.disciplines.size();
+    	if (sizeOfListDisc < 6) {
+    		toPage = sizeOfListDisc;
     	}
     	
         if (page == 0) {
@@ -50,7 +52,7 @@ class FinalView extends Ui.View {
         }
         else {
         	step = 5;
-        	toPage = AppData.disciplines.size();
+        	toPage = sizeOfListDisc;
         }
         
         dc.drawBitmap(1, 1, Ui.loadResource(Rez.Drawables.FinalIcon));

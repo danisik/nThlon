@@ -69,7 +69,10 @@ class OwnDiscDelegate extends Ui.BehaviorDelegate {
         	var sizeOfListDisc = ownDiscPicker.order;
         	App.getApp().setProperty("sizeOfListDisc", sizeOfListDisc);
         	
-        	Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
+        	//Ui.switchToView(new RecordingView(), new RecordingViewDelegate(), Ui.SLIDE_UP);
+        	
+        	var oldDiscView = new OldDiscView();
+        	Ui.switchToView(oldDiscView, new OldDiscViewDelegate(oldDiscView), Ui.SLIDE_UP);
         }
     }
 }
