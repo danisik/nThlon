@@ -61,7 +61,7 @@ module Functions {
 	
 	/** prevede m/s na m:s/100m */
 	function convertSpeedSwimming(speed) {
-		var units = "m:s/100m";
+		var units = "/100m";
 		if (speed == null) {
 			return {0=>units, 1=>error};
 		}
@@ -246,7 +246,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}
@@ -264,7 +264,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota + ":" + hodnotaFloat, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}
@@ -356,7 +356,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}
@@ -373,7 +373,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}
@@ -463,7 +463,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}
@@ -482,7 +482,7 @@ module Functions {
     		dc.drawText(x, y + offset, font, hodnota, textJustifyLeft);
     		dc.drawText(unitPosition, y + offset, normalFont, jednotka, textJustifyRight);
     		y += fontShift;
-    		dc.drawText(x, y + averageOffset, normalFont, "( " + averageHodnota + " )", textJustifyLeft);
+    		dc.drawText(x, y + averageOffset, normalFont, "prum.  ( " + averageHodnota + " )", textJustifyLeft);
     		y += fontShift;
     		bigger++;
     	}

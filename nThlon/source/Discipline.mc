@@ -60,7 +60,7 @@ class Discipline {
 		self.startTime = 0;
 		self.endTime = 0;
 		self.lastVibration = 0;
-	
+		Sys.println(sport.toString());
 		switch (sport) {
 			case DISCIPLINE_RUNNING:
 				chosenSport = DISC_RUNNING;
